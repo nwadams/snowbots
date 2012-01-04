@@ -1,0 +1,17 @@
+<package>
+  <description brief="sb_mapping">
+
+     sb_mapping
+
+  </description>
+  <author>Mark</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_mapping</url>
+  <depend package="roslib"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+
