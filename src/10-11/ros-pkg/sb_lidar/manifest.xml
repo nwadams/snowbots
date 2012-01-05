@@ -1,0 +1,21 @@
+<package>
+  <description brief="sb_lidar">
+	Lidar code package
+  </description>
+  <author>Nick Adams</author>
+  <license>Copyright 2011 UBC Thunderbird Robotics</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_lidar</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_msgs"/>
+
+</package>
+
+

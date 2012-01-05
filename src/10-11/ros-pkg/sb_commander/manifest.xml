@@ -1,0 +1,22 @@
+<package>
+  <description brief="sb_commander">
+
+     sb_commander
+
+  </description>
+  <author>Nick Adams</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_commander</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_msgs"/>
+
+</package>
+
+

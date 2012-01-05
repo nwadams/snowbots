@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/47/10-11/ros-pkg/sb_lidar/src/PathClass
+END
+ConePosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/47/10-11/ros-pkg/sb_lidar/src/PathClass/ConePosition.h
+END
+Path.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/47/10-11/ros-pkg/sb_lidar/src/PathClass/Path.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/47/10-11/ros-pkg/sb_lidar/src/PathClass/main.cpp
+END
+ConePosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sb/!svn/ver/47/10-11/ros-pkg/sb_lidar/src/PathClass/ConePosition.cpp
+END
+Path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/47/10-11/ros-pkg/sb_lidar/src/PathClass/Path.cpp
+END

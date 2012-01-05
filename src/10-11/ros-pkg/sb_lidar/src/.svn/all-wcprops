@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sb/!svn/ver/177/10-11/ros-pkg/sb_lidar/src
+END
+ConeNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/134/10-11/ros-pkg/sb_lidar/src/ConeNode.h
+END
+pathing_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/167/10-11/ros-pkg/sb_lidar/src/pathing_node.cpp
+END
+cone_id_withTrackWall.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/43/10-11/ros-pkg/sb_lidar/src/cone_id_withTrackWall.cpp
+END
+cone_identification.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/15/10-11/ros-pkg/sb_lidar/src/cone_identification.h
+END
+simple_lidar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/154/10-11/ros-pkg/sb_lidar/src/simple_lidar.cpp
+END
+ConePosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/177/10-11/ros-pkg/sb_lidar/src/ConePosition.cpp
+END
+ConePosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sb/!svn/ver/76/10-11/ros-pkg/sb_lidar/src/ConePosition.h
+END
+VectorPath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/167/10-11/ros-pkg/sb_lidar/src/VectorPath.cpp
+END
+NormalizeWall.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/110/10-11/ros-pkg/sb_lidar/src/NormalizeWall.cpp
+END
+VectorPath.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/97/10-11/ros-pkg/sb_lidar/src/VectorPath.h
+END
+TrackWall.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sb/!svn/ver/43/10-11/ros-pkg/sb_lidar/src/TrackWall.cpp
+END
+NormalizeWall.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/90/10-11/ros-pkg/sb_lidar/src/NormalizeWall.h
+END
+LongestLineNav.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/84/10-11/ros-pkg/sb_lidar/src/LongestLineNav.cpp
+END
+TrackWall.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/33/10-11/ros-pkg/sb_lidar/src/TrackWall.h
+END
+ConeNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/43/10-11/ros-pkg/sb_lidar/src/ConeNode.cpp
+END
+blizzard_lidar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/45/10-11/ros-pkg/sb_lidar/src/blizzard_lidar.cpp
+END
+LongestLineNav.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/75/10-11/ros-pkg/sb_lidar/src/LongestLineNav.h
+END
+cone_identification.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sb/!svn/ver/46/10-11/ros-pkg/sb_lidar/src/cone_identification.cpp
+END

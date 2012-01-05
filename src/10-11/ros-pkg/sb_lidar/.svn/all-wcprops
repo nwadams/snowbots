@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/sb/!svn/ver/177/10-11/ros-pkg/sb_lidar
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/45/10-11/ros-pkg/sb_lidar/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/15/10-11/ros-pkg/sb_lidar/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/177/10-11/ros-pkg/sb_lidar/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sb/!svn/ver/76/10-11/ros-pkg/sb_lidar/Makefile
+END

@@ -1,0 +1,21 @@
+
+(in-package :asdf)
+
+(defsystem "sb_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils)
+  :components ((:file "_package")
+    (:file "RobotState" :depends-on ("_package"))
+    (:file "_package_RobotState" :depends-on ("_package"))
+    (:file "VisionNav" :depends-on ("_package"))
+    (:file "_package_VisionNav" :depends-on ("_package"))
+    (:file "IMU" :depends-on ("_package"))
+    (:file "_package_IMU" :depends-on ("_package"))
+    (:file "CarCommand" :depends-on ("_package"))
+    (:file "_package_CarCommand" :depends-on ("_package"))
+    (:file "ServoCommand" :depends-on ("_package"))
+    (:file "_package_ServoCommand" :depends-on ("_package"))
+    (:file "TurretCommand" :depends-on ("_package"))
+    (:file "_package_TurretCommand" :depends-on ("_package"))
+    (:file "LidarNav" :depends-on ("_package"))
+    (:file "_package_LidarNav" :depends-on ("_package"))
+    ))

@@ -1,0 +1,14 @@
+<package>
+  <description brief="sb_gazebo">
+
+     sb_gazebo
+
+  </description>
+  <author>Thunderbird Robotics</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_gazebo</url>
+
+</package>
+
+

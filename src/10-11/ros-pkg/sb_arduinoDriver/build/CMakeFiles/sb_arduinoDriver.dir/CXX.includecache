@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nwadams/sb/10-11/ros-pkg/sb_arduinoDriver/src/SerialCommunication.cpp
+stdio.h
+-
+iostream
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+string
+-
+SerialCommunication.h
+/home/nwadams/sb/10-11/ros-pkg/sb_arduinoDriver/src/SerialCommunication.h
+stdlib.h
+-
+
+/home/nwadams/sb/10-11/ros-pkg/sb_arduinoDriver/src/SerialCommunication.h
+stdio.h
+-
+iostream
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+string
+-
+stdlib.h
+-
+

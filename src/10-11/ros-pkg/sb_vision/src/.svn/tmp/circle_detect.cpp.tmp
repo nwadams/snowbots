@@ -1,0 +1,149 @@
+// circle_detect.cpp : Defines the entry point for the console application.
+//
+
+#include <cv.h>
+#include <cxcore.h>
+#include <highgui.h>
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+
+#define CANNY 1 //TODO: uncomment this line to see the canny of the input image
+
+//declarations
+int thresh = 50;
+IplImage* img = 0;
+IplImage* img0 = 0;
+<<<<<<< .mine
+=======
+CvMemStorage* storage = cvCreateMemStorage(0);
+>>>>>>> .r108
+IplImage* canny = 0;
+CvCapture* capture = 0;
+
+<<<<<<< .mine
+char* names[] = { "img/1.jpg","img/2.jpg","../img/3.jpg","../img/4.jpg","../img/5.jpg",
+"../img/6.jpg","../img/7.jpg", "../img/8.jpg", "../img/97.png", "../img/98.jpg", "../img/99.jpg",
+"../img/95.jpg", "../img/96.jpg" , 0 };
+=======
+char* names[] = { "img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg",
+"img/6.jpg","img/7.jpg", "img/8.jpg", "img/97.png", "img/98.jpg", "img/99.jpg",
+"img/95.jpg", "img/96.jpg" , 0 };
+>>>>>>> .r108
+
+void find_circle(IplImage* img, CvMemStorage* storage)
+{
+  int px[100], py[100];
+  IplImage* src = 0;
+  IplImage* gray = 0;
+  IplImage* edge = 0;
+  
+  //storage = cvCreateMemStorage(0);
+  //create a memory storage that will contain all the dynamic data
+
+  img = cvCloneImage(img0);
+  src = cvCreateImage(cvSize(img0->width, img0->height), img0->depth, img0->nChannels);
+  gray = cvCreateImage(cvSize(img0->width, img0->height), img0->depth, 1);
+  edge = cvCreateImage(cvSize(img0->width, img0->height), img0->depth, 1);
+  cvCopyImage(img0, src);
+  
+  //create window and a trackbar with parent "image" and set callback
+  cvCvtColor(src, gray, CV_BGR2GRAY);
+  gray->origin = 1;
+  
+  //color threshold
+  cvThreshold(gray, gray, 100, 255, CV_THRESH_BINARY);
+  
+  //smooth the image to reduce unneccesary result
+  cvSmooth(gray, gray, CV_GAUSSIAN, 11, 11);
+  
+  //get edges
+  cvCanny(gray, edge, 0, thresh, 3);
+  
+  //get circle
+  CvSeq* circles = cvHoughCircles( gray, storage, CV_HOUGH_GRADIENT, 1, 50, 5, 50); 
+  //TODO: tweak this function
+  
+  //draw circles
+  for(int i = 0; i < circles->total && i < 100; i++)
+  {
+    float* p = (float*)cvGetSeqElem(circles, i);
+    cvCircle(src, cvPoint(cvRound(p[0]), cvRound(p[1])), 3, CV_RGB(0, 0, 255), -1, 8, 0);
+    cvCircle(src, cvPoint(cvRound(p[0]), cvRound(p[1])), cvRound(p[2]), CV_RGB(0, 0, 255), 1, 8, 0);
+    px[i] = cvRound(p[0]);
+    py[i] = cvRound(p[1]);
+  }
+  
+  #ifdef CANNY
+  canny = cvCreateImage(cvSize(img0->width, img0->height), img0->depth, 1);
+  cvCvtColor(img0, canny, CV_RGB2GRAY);
+  cvCanny(canny, canny, 0, thresh, 3);
+  cvShowImage("canny", canny);
+  #endif
+  cvShowImage("circle", src);
+  
+  cvReleaseImage(&gray);
+  cvReleaseImage(&edge);
+}
+
+
+int main(int argc, char** argv)
+{
+  capture = cvCaptureFromCAM(0);
+  char k = 0;
+  
+  //process image first
+  for(int i = 0; names[i] != 0; i++)
+  {
+    //load i-th image
+    img0 = cvLoadImage(names[i], 1);
+    if(!img0)
+    {
+      printf("couldn't load %s\n", names[i]);
+      continue;
+    }
+    
+	CvMemStorage* storage = 0;
+    find_circle(img0, storage);
+    cvReleaseMemStorage(&storage);
+    
+    //wait for key
+    k = cvWaitKey(0);
+    //release images
+    cvReleaseImage(&img);
+    cvReleaseImage(&img0);
+    //clear memory storage
+    if(k == 27) break;
+  }
+
+
+  //start of camera capture
+  while(1)
+  {
+    img0 = cvQueryFrame(capture);
+    if(!img0)
+    {
+      printf("couldn't capture from camera");
+      break;
+    }
+	CvMemStorage* storage = 0;
+    find_circle(img0, storage);
+<<<<<<< .mine
+    cvReleaseMemStorage(&storage);
+=======
+    cvClearMemStorage(storage);
+    #ifdef CANNY
+    canny = cvCreateImage(cvSize(img0->width, img0->height), img0->depth, 1);
+    cvCvtColor(img0, canny, CV_RGB2GRAY);
+    cvCanny(canny, canny, 0, thresh, 3);
+    cvShowImage("canny", canny);
+    #endif
+>>>>>>> .r108
+    k = cvWaitKey(33);
+    if(k == 27) break;
+  }
+  
+  cvReleaseCapture(&capture); 
+  cvDestroyWindow("circle");
+
+}

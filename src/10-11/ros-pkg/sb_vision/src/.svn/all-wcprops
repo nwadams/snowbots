@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sb/!svn/ver/192/10-11/ros-pkg/sb_vision/src
+END
+simple_vision_mod.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/50/10-11/ros-pkg/sb_vision/src/simple_vision_mod.cpp
+END
+simple_vision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/51/10-11/ros-pkg/sb_vision/src/simple_vision.cpp
+END
+find_square.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/108/10-11/ros-pkg/sb_vision/src/find_square.cpp
+END
+stereo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/52/10-11/ros-pkg/sb_vision/src/stereo.cpp
+END
+traffic_ros.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/173/10-11/ros-pkg/sb_vision/src/traffic_ros.cpp
+END
+videoWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/191/10-11/ros-pkg/sb_vision/src/videoWriter.cpp
+END
+stop_sign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/191/10-11/ros-pkg/sb_vision/src/stop_sign.cpp
+END
+detectrect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/137/10-11/ros-pkg/sb_vision/src/detectrect.cpp
+END
+traffic_detect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/173/10-11/ros-pkg/sb_vision/src/traffic_detect.cpp
+END
+circle_detect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/167/10-11/ros-pkg/sb_vision/src/circle_detect.cpp
+END
+stereoVision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/192/10-11/ros-pkg/sb_vision/src/stereoVision.cpp
+END
+oscar_stop_sign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/173/10-11/ros-pkg/sb_vision/src/oscar_stop_sign.cpp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sb/!svn/ver/192/10-11/ros-pkg/sb_vision
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/49/10-11/ros-pkg/sb_vision/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/32/10-11/ros-pkg/sb_vision/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/192/10-11/ros-pkg/sb_vision/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sb/!svn/ver/32/10-11/ros-pkg/sb_vision/Makefile
+END

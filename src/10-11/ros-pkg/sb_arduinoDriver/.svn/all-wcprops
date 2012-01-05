@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sb/!svn/ver/181/10-11/ros-pkg/sb_arduinoDriver
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/85/10-11/ros-pkg/sb_arduinoDriver/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/80/10-11/ros-pkg/sb_arduinoDriver/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/85/10-11/ros-pkg/sb_arduinoDriver/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/80/10-11/ros-pkg/sb_arduinoDriver/Makefile
+END

@@ -1,0 +1,20 @@
+<package>
+  <description brief="sb_arduinoDriver">
+     Driver node for arduino microcontroller
+  </description>
+  <author>Nick Adams</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_msgs"/>
+</package>
+
+

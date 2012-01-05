@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sb/!svn/ver/129/10-11/ros-pkg/sb_joystick/scripts
+END
+wiimote_joy.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/196/10-11/ros-pkg/sb_joystick/scripts/wiimote_joy.py
+END
+keyboard_js_sim.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sb/!svn/ver/125/10-11/ros-pkg/sb_joystick/scripts/keyboard_js_sim.py
+END

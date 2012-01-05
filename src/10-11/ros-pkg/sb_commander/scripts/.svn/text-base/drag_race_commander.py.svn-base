@@ -1,0 +1,106 @@
+#!/usr/bin/env python
+"""
+The process that collects info from all other Blizzard processes and
+makes the final decision on where the robot should go.
+"""
+# Configuration constants
+LOOP_FREQ = 10.0 # Hz
+#CAR_PUBLISH_TOPIC = "car_command"
+CAR_PUBLISH_TOPIC = "cmd_vel"
+TURRET_PUBLISH_TOPIC = "TurretCommand"
+LIDAR_NAV_TOPIC = "lidar_nav"
+VISION_NAV_TOPIC = "Vision_Nav"
+ESTOP_TOPIC = "eStop"
+NODE_NAME = "Lidar_Commander"
+
+import roslib 
+roslib.load_manifest('sb_commander')
+import rospy
+from sb_msgs.msg import RobotState
+from sb_msgs.msg import LidarNav
+from std_msgs.msg import Bool
+from std_msgs.msg import Float64
+from geometry_msgs.msg import Vector3, Twist
+import time
+import math
+
+eStop = 0;
+
+# Lidar Variables
+lidar_direction = 1
+lidar_state = 1
+lidar_distance = 0
+  
+def go_callback(message):
+  global eStop
+  eStop = message.data
+
+def Lidar_callback(message):
+  global lidar_direction
+  global lidar_distance
+  global lidar_state
+  lidar_direction = message.direction
+  lidar_distance = message.distance
+  lidar_state = message.confidence
+
+def theDriver():
+  
+  #publishers
+  car_pub = rospy.Publisher(CAR_PUBLISH_TOPIC, Twist)
+  #turret_pub = rospy.Publisher(TURRET_PUBLISH_TOPIC, TurretCommand)
+
+  #subcribers
+  rospy.Subscriber(ESTOP_TOPIC, Bool, go_callback)
+  #rospy.Subscriber(VISION_NAV_TOPIC, VisionNav, Vision_callback)
+  rospy.Subscriber(LIDAR_NAV_TOPIC, LidarNav, Lidar_callback)
+  
+  #rospy.Subscriber("RobotState", RobotState, RobotState_callback)
+  #rospy.Subscriber("traffic_light",Bool, Traffic_light_callback)
+  #rospy.Subscriber("stop_sign_state", Float64, Stop_sign_callback)
+
+  
+  rospy.init_node(NODE_NAME)
+
+  rate = rospy.Rate(LOOP_FREQ)
+
+  while eStop:
+    rospy.loginfo("ready to go")
+
+  rospy.loginfo("going")
+    
+  time.sleep(3) #wait 3 seconds
+  
+  while not rospy.is_shutdown():
+    global lidar_direction
+    global lidar_distance
+
+    x = lidar_direction
+    y = lidar_distance + 30 #add 30 meters to distance :)
+
+    if(y == 0):
+      angle = 0;
+    else :
+      angle = (math.atan(x/y))
+    
+    y = 0.20 #drag race throttle 
+
+    if angle > 1: 
+      angle = 1
+    elif angle < -1:
+      angle = -1
+    #publish message
+    rospy.loginfo("sending throttle=%f, steering=%f" % (y, angle) )
+    vel_msg = Twist()
+    vel_msg.linear.x = y
+    vel_msg.angular.z = angle*1
+    car_pub.publish(vel_msg)
+    
+    rate.sleep()
+
+  # car_pub.publish(throttle = 0, steering = 0)
+  # Stop robot when the program is killed
+  car_pub.publish(throttle = 0, steering = 0)
+  rospy.loginfo("killing code")
+
+if __name__ == "__main__":
+  theDriver()

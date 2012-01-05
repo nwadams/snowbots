@@ -1,0 +1,23 @@
+<package>
+  <description brief="sb_gui">
+	gui for snowbots robots
+	pc gui and socket communication node for android gui here
+  </description>
+  <author>Snowbots</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_gui</url>
+    <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="joy"/>
+  
+    <!-- This package depends on the following packages from the
+       ubc-tbird-ros-pkg stack:  
+  <depend package="sb_msgs"/>
+  <depend package="sb_util"/>-->
+
+
+</package>

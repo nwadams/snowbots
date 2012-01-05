@@ -1,0 +1,371 @@
+#include <iostream>
+#include "ConePosition.h"
+#include <math.h>
+#include <vector>
+#define PI 3.14159
+#define CONE_SEPARATION_DISTANCE 1.5
+
+using namespace std;
+
+ConePosition::ConePosition()
+{
+	coneCount = 0;
+	last_data = 0;
+	last_angle = 0;
+}
+
+double ConePosition::ConvertToRadians(double angle)
+{
+	return (angle * PI)/180;
+}
+
+void ConePosition::GetConstantsFromLidar(const sensor_msgs::LaserScanConstPtr& msg_ptr, bool swap)
+{
+	max_distance = msg_ptr->range_max;
+	min_distance = msg_ptr->range_min;
+	min_angle = msg_ptr->angle_min;
+	max_angle = msg_ptr->angle_max;
+	d_angle = msg_ptr->angle_increment;	
+	num_vals = (max_angle - min_angle) / d_angle;
+} 
+
+void ConePosition::IdentifyCones(const vector<float> ranges)
+{
+	int count = 0;
+	int cones = 0;
+	
+	for (int i = 0; i < num_vals; i++)
+	{
+		if(ranges[i] > min_distance && ranges[i] < max_distance)
+		{
+			if(count == 0 || fabs(ranges[i] - last_data) < 0.1)
+			{
+				count++;
+				last_data = ranges[i];
+				if (count >= 30)
+				{
+					addCone(ranges, count, i);
+					count = 0;
+				}
+			} else {
+				if(count >= 2)
+				{
+					addCone(ranges, count, i);
+					cones++;
+				}
+				count = 0;
+			}
+		}
+		else if(count >= 2)
+		{
+			addCone(ranges, count, i);
+			count = 0;
+			cones++;
+		}
+	}
+	//cout << "Num of Cones: " << cones << endl;
+}
+
+void ConePosition::separateCones()
+{
+	//sort closest to farthest
+	sortCones();
+
+	// put cones into left and right wall
+	int num_cones = points.size();
+	for (int i = 0; i < num_cones; i++)
+	{
+		if(points[i].x < 0) 
+		{
+			// if on Right
+			if(RightWall.size() == 0)
+			{
+				if(LeftWall.size() > 0)
+				{
+					double distance_between_cones_on_wall = sqrt(
+							pow(points[i].x-LeftWall[LeftWall.size()-1].x,2) +
+							pow(points[i].y-LeftWall[LeftWall.size()-1].y,2));
+					if (distance_between_cones_on_wall < CONE_SEPARATION_DISTANCE)
+					{
+						addToLeftWall(points[i]);
+					} else {
+						addToRightWall(points[i]);
+					}
+				} else {
+					// add first cone
+					addToRightWall(points[i]);
+				}
+			} else {
+				// check if close to latest cone in RightWall
+				double distance_between_cones_on_wall = sqrt(
+						pow(points[i].x-RightWall[RightWall.size()-1].x,2) +
+						pow(points[i].y-RightWall[RightWall.size()-1].y,2));
+
+				if(LeftWall.size() > 0)
+				{
+					double other_wall_distance = sqrt(
+							pow(points[i].x-LeftWall[LeftWall.size()-1].x,2) +
+							pow(points[i].y-LeftWall[LeftWall.size()-1].y,2));
+
+					if(other_wall_distance > distance_between_cones_on_wall*2 ||
+							distance_between_cones_on_wall < CONE_SEPARATION_DISTANCE)
+					{
+						if(other_wall_distance < CONE_SEPARATION_DISTANCE)
+						{
+							//don't add to anything
+						} else {
+							addToRightWall(points[i]);
+						}
+					} else {
+						addToLeftWall(points[i]);
+					}
+				} else {
+					if(distance_between_cones_on_wall < CONE_SEPARATION_DISTANCE)
+					{
+						addToRightWall(points[i]);
+					} else {
+						addToLeftWall(points[i]);
+					}
+				}
+			}
+		} else if (points[i].x > 0) {
+			// if on Left
+			if(LeftWall.size() == 0)
+			{
+				if(RightWall.size() > 0)
+				{
+					double distance_between_cones_on_wall = sqrt(
+							pow(points[i].x-RightWall[RightWall.size()-1].x,2) +
+							pow(points[i].y-RightWall[RightWall.size()-1].y,2));
+					if (distance_between_cones_on_wall < CONE_SEPARATION_DISTANCE)
+					{
+						addToRightWall(points[i]);
+					} else {
+						addToLeftWall(points[i]);
+					}
+				} else {
+					// add first cone
+					addToLeftWall(points[i]);
+				}
+			} else {
+				// check if close to latest Cone in LeftWall
+				double distance_between_cones_on_wall = sqrt(
+						pow(points[i].x-LeftWall[LeftWall.size()-1].x,2) +
+						pow(points[i].y-LeftWall[LeftWall.size()-1].y,2));
+
+				if(RightWall.size() > 0)
+				{
+					double other_wall_distance = sqrt(
+							pow(points[i].x-RightWall[RightWall.size()-1].x,2) +
+							pow(points[i].y-RightWall[RightWall.size()-1].y,2));
+
+					if(other_wall_distance > distance_between_cones_on_wall*2 ||
+							distance_between_cones_on_wall < CONE_SEPARATION_DISTANCE)
+					{
+						if(other_wall_distance < CONE_SEPARATION_DISTANCE)
+						{
+							//don't add to anything
+						} else {
+							addToLeftWall(points[i]);
+						}
+					} else {
+						addToRightWall(points[i]);
+					}
+				} else {
+					if(distance_between_cones_on_wall < CONE_SEPARATION_DISTANCE)
+					{
+						addToLeftWall(points[i]);
+					} else {
+						addToRightWall(points[i]);
+					}
+				}
+			}
+		} else {
+			// if in Center
+				
+		}
+	}
+}
+
+void ConePosition::addToLeftWall(Coordinate point)
+{
+	//cout << "add to left" << endl;
+	Cone cone;
+	cone.x = point.x;
+	cone.y = point.y;
+	cone.distance = sqrt(pow(point.x,2) + pow(point.y,2));
+	//TODO
+	double angle = atan(point.y / point.x);
+	if (angle > PI/2)
+	{
+		cone.angle = (PI/2) - angle;
+	} else {
+		cone.angle = -(PI/2) - angle;
+	}
+	LeftWall.push_back(cone);
+}
+
+void ConePosition::addToRightWall(Coordinate point)
+{
+	//cout << "add to right" << endl;
+	Cone cone;
+	cone.x = point.x;
+	cone.y = point.y;
+	cone.distance = sqrt(pow(point.x,2) + pow(point.y,2));
+	//TODO
+	double angle = atan(point.y / point.x);
+	if (angle > PI/2)
+	{
+		cone.angle = (PI/2) - angle;
+	} else {
+		cone.angle = -(PI/2) - angle;
+	}
+	RightWall.push_back(cone);
+}
+
+void ConePosition::sortCones()
+{
+	Coordinate key;
+	int i;
+	int num_cones = points.size();
+	for(int j = 1;j < num_cones;j++)
+	{
+		key=points[j];
+		i = j-1;
+		while(points[i].y > key.y && i>=0)
+		{
+			points[i+1] = points[i];
+			i--;
+		}
+		points[i+1] = key;
+	}
+}
+
+void ConePosition::addCone(const vector<float> ranges, int count, int i)
+{
+	//cout << "adding cone" << endl;
+	double total = 0;
+	int j;
+
+	for (j = 0; j < count;j++)
+	{
+		total += ranges[i-j-1];
+	}
+	double average_range = total/j;
+	double average_angle = (calculateAngle(i)+calculateAngle(i-j-1))/2;
+
+	Coordinate point;
+	point.x = average_range * sin(average_angle);
+	point.y = average_range * cos(average_angle);
+	points.push_back(point);
+}
+
+double ConePosition::calculateAngle(int i)
+{	
+	return d_angle*i-((max_angle-min_angle)/2);
+}
+
+void ConePosition::DebugIdentifyCones(double distance, double angle)
+{
+	cout << "distance: " << distance << " ";
+	cout << "angle: " << angle << endl;
+}
+
+void ConePosition::PrintConeCount()
+{
+	cout << "Cone Count: " << coneCount << endl;
+}
+
+void ConePosition::PrintConePositions()
+{
+	cout << "============Cone Positions============" << endl << endl;
+	for (int i = 0; i < points.size(); i++)
+	{
+		cout << "Cone: " << i+1 << endl;
+		cout << "x: " << points[i].x << endl;
+		cout << "y: " << points[i].y << endl;
+		//cout << "r: " << distances[i] << endl;
+		//cout << "angle: " << angles[i] << endl;
+		cout << endl;	
+	}
+}
+
+void ConePosition::PrintDataFromLidar()
+{
+	cout << "Min. Angle: " << min_angle << " degrees" << endl;
+	cout << "Max. Angle: " << max_angle << " degrees" << endl;
+	cout << "Inc. Angle: " << d_angle << " degrees" << endl;
+	cout << "Max. Distance: " << max_distance << "m" << endl;
+	cout << "Min. Distance: " << min_distance << "m" << endl;
+	cout << "Number of values: " << num_vals << endl;
+}
+
+void ConePosition::PrintDistances()
+{
+	cout << "Valid distances: ";
+	for (int i = 0; i < distances.size(); i++)
+	{
+		cout << distances[i] << " ";
+	}
+	cout << endl;
+}
+
+void ConePosition::PrintAngles()
+{
+	cout << "Valid angles: ";
+	for (int i = 0; i < coneCount; i++)
+	{
+		cout  << angles[i] << " ";
+	}
+	cout << endl;
+}
+
+void ConePosition::PrintLeftCones()
+{
+	cout << "============Left Cones============" << endl << endl;
+	for (int i = 0; i < LeftWall.size(); i++)
+	{
+		cout << "Cone: " << i+1 << endl;
+		cout << "x: " << LeftWall[i].x << endl;
+		cout << "y: " << LeftWall[i].y << endl;
+		cout << "distance: " << LeftWall[i].distance << endl;
+		cout << "angle: " << LeftWall[i].angle << endl;
+		cout << endl;
+	}
+}
+
+void ConePosition::PrintRightCones()
+{
+	cout << "============Right Cones============" << endl << endl;
+	for (int i = 0; i < RightWall.size(); i++)
+	{
+		cout << "Cone: " << i+1 << endl;
+		cout << "x: " << RightWall[i].x << endl;
+		cout << "y: " << RightWall[i].y << endl;
+		cout << "distance: " << RightWall[i].distance << endl;
+		cout << "angle:" << RightWall[i].angle << endl;
+		cout << endl;
+	}
+}
+
+void ConePosition::PrintXPosition()
+{
+	
+	for (int i = 0; i < points.size(); i++)
+	{
+		cout << "x: " << points[i].x << " ";
+	}
+	cout << endl;
+	
+}
+
+void ConePosition::PrintYPosition()
+{
+	
+	for (int i = 0; i < points.size(); i++)
+	{
+		cout << "y: " << points[i].y << " ";
+	}
+	cout << endl;
+	
+}

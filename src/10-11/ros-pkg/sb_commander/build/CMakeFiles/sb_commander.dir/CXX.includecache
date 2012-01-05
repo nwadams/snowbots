@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.cpp
+sstream
+-
+fstream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+string
+-
+iomanip
+-
+Path.h
+/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.h
+ConeLocation.h
+/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.h
+
+/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.h
+iostream
+-
+string
+-
+

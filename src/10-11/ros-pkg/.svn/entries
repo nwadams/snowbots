@@ -1,0 +1,69 @@
+10
+
+dir
+194
+http://snowbots.ca/svn/sb/10-11/ros-pkg
+http://snowbots.ca/svn/sb
+
+
+
+2011-08-20T04:03:10.240585Z
+194
+thunderbird
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7f98381f-4dde-44d4-aa9f-6e5f7d9742dd
+
+sb_lidar
+dir
+
+sb_arduinoDriver
+dir
+
+set_ros_master.sh
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+sb_joystick
+dir
+
+sb_stage
+dir
+
+sb_gui
+dir
+
+sb_commander
+dir
+
+sb_gazebo
+dir
+
+sb_vision
+dir
+
+sb_msgs
+dir
+
