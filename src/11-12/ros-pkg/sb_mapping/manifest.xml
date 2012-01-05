@@ -11,6 +11,8 @@
   <depend package="roslib"/>
   <depend package="roscpp"/>
   <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
 
 </package>
 
