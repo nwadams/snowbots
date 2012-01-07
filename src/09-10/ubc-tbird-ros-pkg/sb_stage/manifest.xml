@@ -1,0 +1,15 @@
+<package>
+  <description brief="sb_stage">
+
+     sb_stage
+
+  </description>
+  <author>Ian Phillips</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_stage</url>
+  <depend package="stage"/>
+
+</package>
+
+

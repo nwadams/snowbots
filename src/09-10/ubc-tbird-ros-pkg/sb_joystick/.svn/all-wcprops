@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sb/!svn/ver/127/ubc-tbird-ros-pkg/sb_joystick
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/Makefile
+END

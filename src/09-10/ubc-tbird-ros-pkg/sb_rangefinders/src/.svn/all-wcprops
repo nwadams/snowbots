@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/170/ubc-tbird-ros-pkg/sb_rangefinders/src
+END
+lidar3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar3.cpp
+END
+lidar_cone_hugger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar_cone_hugger.cpp
+END
+irTester.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/irTester.cpp
+END
+lidar_cone_hugger3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar_cone_hugger3.cpp
+END
+Rangefinder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/Rangefinder.cpp
+END
+ir_extractor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sb/!svn/ver/170/ubc-tbird-ros-pkg/sb_rangefinders/src/ir_extractor.cpp
+END
+coneHugger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/coneHugger.cpp
+END
+irExtractor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/irExtractor.cpp
+END
+lidar_cone_hugger_sim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar_cone_hugger_sim.cpp
+END
+lidar_cone_hugger_sim2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar_cone_hugger_sim2.cpp
+END
+lidar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar.cpp
+END
+blizzard_lidar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sb/!svn/ver/46/ubc-tbird-ros-pkg/sb_rangefinders/src/blizzard_lidar.cpp
+END
+lidar2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/src/lidar2.cpp
+END

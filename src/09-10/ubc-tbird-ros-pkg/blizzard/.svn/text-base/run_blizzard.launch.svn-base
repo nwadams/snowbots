@@ -1,0 +1,23 @@
+<launch>
+  <node pkg="hokuyo_node"
+        name="hokuyo_node"
+        type="hokuyo_node" />
+
+  <node pkg="sb_rangefinders" 
+    name="blizzard_lidar" 
+    type="blizzard_lidar" 
+    args="$(find sb_config)/cfg/blizzard.cfg" />
+
+  <node pkg="sb_commander"
+        name="blizzard_commander"
+        type="blizzard_commander.py" />
+
+  <node pkg="sb_arduinoDriver"
+        name="Driver"
+        type="Driver" />
+
+  <node pkg="sb_vision"
+        name="stopSignDetector"
+        type="stopSignDetector" />
+
+</launch>

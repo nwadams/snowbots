@@ -1,0 +1,25 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b sb_furious contains the driver for the Furious microcontroller 
+board, which Snowbots used in the 2009 and 2010 competitions.  It
+also provides an emulator for the microcontroller, which can aid
+testing and debugging when the board is not physically present.
+
+
+\section codeapi Code API
+
+<!--
+Provide links to specific auto-generated API documentation within your
+package that is of particular interest to a reader. Doxygen will
+document pretty much every part of your code, so do your best here to
+point the reader to the actual API.
+
+If your codebase is fairly large or has different sets of APIs, you
+should use the doxygen 'group' tag to keep these APIs together. For
+example, the roscpp documentation has 'libros' group.
+-->
+
+
+*/

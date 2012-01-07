@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/msg
+END
+FuriousState.msg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/msg/FuriousState.msg
+END
+ServoCommand.msg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/msg/ServoCommand.msg
+END

@@ -1,0 +1,32 @@
+<package>
+  <description brief="Drivers for Furious microcontroller">
+    This package contains a driver node for the Furious microcontroller
+    board.  For an introduction, see docs/FuriousIntro.doc in this
+    directory.
+  </description>
+  <author>Ian F. Phillips</author>
+  <license>GPL v3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+
+  <!-- This package depends on the following operating system packages: -->
+  <rosdep name="joystick"/>
+  <rosdep name="python-epydoc"/>
+  <rosdep name="python-pygame"/>
+  <rosdep name="python-qt4"/>
+  <rosdep name="python-serial"/>
+
+  <export>
+    <!-- enable other packages to use our custom messages -->
+    <cpp cflags="-I${prefix}/msg/cpp"/>
+    <!-- enable custom rosdoc documentation configuration -->
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+
+</package>
+
+

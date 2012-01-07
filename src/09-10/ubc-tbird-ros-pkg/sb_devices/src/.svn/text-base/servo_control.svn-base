@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# READ ME!
+# When servo_control.cpp is compiled, it will generate the executable
+# bin/_servo_control -- note the leading underscore.  (You can see this 
+# for yourself in the CMakeLists.txt file).  Why the leading underscore?
+#
+# It's there because you're not supposed to run the binary executable
+# directly; instead, run this script.  Give it the name of the servo you 
+# want the node to control as an argument, and this script will run the 
+# binary _servo_control node with the correct remappings.  For example, 
+# if you type:
+#   rosrun sb_devices servo_control throttle
+# then the servo_control node will subscribe to topic "throttle" and
+# be named "servo_control_throttle".  This allows you to run several 
+# instances of servo_control for controlling multiple servos.
+#
+# For more info on ROS remapping, see
+#    http://www.ros.org/wiki/Remapping%20Arguments
+#
+# Author: Ian Phillips <ianfp@freeshell.org>
+
+servo_name=$1
+rosrun sb_devices _servo_control sub_topic:=$servo_name __name:=servo_control_$servo_name $servo_name

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob
+END
+cvcontour.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvcontour.cpp
+END
+cvaux.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvaux.cpp
+END
+cvblob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvblob.cpp
+END
+cvcolor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvcolor.cpp
+END
+cvlabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvlabel.cpp
+END
+cvblob.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvblob.h
+END
+cvtrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/cvblob/cvtrack.cpp
+END

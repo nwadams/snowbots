@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src
+END
+localization.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/localization.py
+END
+speedControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/speedControl.cpp
+END
+oscarCommander.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/oscarCommander.py
+END
+vision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/vision.cpp
+END
+imageReceive2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/imageReceive2.cpp
+END
+vision.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/vision.h
+END
+oscarcommanderbak.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/oscarcommanderbak.py
+END
+setSpeed.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/setSpeed.py
+END
+imageReceive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/imageReceive.cpp
+END
+mapNode.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/mapNode.py
+END
+mapBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/mapBuilder.py
+END
+eStop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/eStop.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/CMakeLists.txt
+END
+visionCommander.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/oscar/src/visionCommander.cpp
+END

@@ -1,0 +1,24 @@
+<package>
+  <description brief="sb_util">
+    Miscellaneous utilities.
+  </description>
+  <author>Ian Phillips</author>
+  <license>Copyright 2010 UBC Thunderbird Robotics</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_config"/>
+  <depend package="sb_msgs"/>
+
+  <export>
+    <!-- enable other packages to use our libraries -->
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lsb_util"/>
+  </export>
+</package>
+
+

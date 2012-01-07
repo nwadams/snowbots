@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sb/!svn/ver/7/ubc-tbird-ros-pkg/sb_arduinoDriver
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_arduinoDriver/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_arduinoDriver/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_arduinoDriver/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/7/ubc-tbird-ros-pkg/sb_arduinoDriver/Makefile
+END

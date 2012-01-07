@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/sb/!svn/ver/170/ubc-tbird-ros-pkg
+END
+set_ros_master.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/set_ros_master.sh
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/stack.xml
+END
+FindOpenCV2.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/FindOpenCV2.cmake
+END
+bashrc.example
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/bashrc.example
+END
+rosdep.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/rosdep.yaml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/CMakeLists.txt
+END

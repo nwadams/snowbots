@@ -1,0 +1,5 @@
+# Length (meters), average steering (%), heading (degrees)
+2.0,  0,   0
+3.0, 60,  90
+2.0,  0, 180
+3.0, 60, 270

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_config/cfg
+END
+oscar.drag.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_config/cfg/oscar.drag.cfg
+END
+oscar.circuit.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_config/cfg/oscar.circuit.cfg
+END
+robot.cfg.example
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_config/cfg/robot.cfg.example
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sb/!svn/ver/25/ubc-tbird-ros-pkg/sb_commander
+END
+oscar.launch
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/oscar.launch
+END
+oscar.circuit.launch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/oscar.circuit.launch
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/6/ubc-tbird-ros-pkg/sb_commander/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/mainpage.dox
+END
+oscar.drag.launch
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/oscar.drag.launch
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/6/ubc-tbird-ros-pkg/sb_commander/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/Makefile
+END

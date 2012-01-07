@@ -1,0 +1,29 @@
+<package>
+  <description brief="snowfire">
+	Snowbots::snowfire	
+	Author: Jeremy Whyte
+
+	Robot: snowfire
+	Team: UBC Thunderbird Robotics Snowbots Team
+	Crew: snowfire
+	Members: 
+	Jeremy Whyte
+	Edu Silva
+
+	This is the snowfire ROS package, part of the ubc-tbird-ros-pkg stack.
+	The snowfire package currently contains:
+	  snowfireControl: 
+	  The snowfireControl node is written in C++ on the ROS framework.
+	  snowfireControl communicates with the furious package, using the servoCommand and furiousState topics.
+	  The snowfireControl node publishes to the servoCommand topic and subscribes to the furiousState topic.
+  </description>
+  <author>Jeremy Whyte</author>
+  <license>GPL v3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/snowfire</url>
+  <depend package="roscpp"/>
+  <depend package="furious"/>
+
+</package>
+
+

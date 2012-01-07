@@ -1,0 +1,72 @@
+[servo.throttle]
+max = 326
+center = 257
+id = 6
+min = 174
+
+[servo.steering]
+max = 347
+center = 240
+id = 7
+min = 151
+
+[servo.pan]
+max = 378
+center = 271
+id = 0
+min = 161
+
+[servo.tilt]
+max = 339
+center = 249
+id = 1
+min = 133
+
+[ir]
+center = 0
+id_start = 1
+angle_increment = 22.5
+id_increment = 1
+num = 5
+type = long
+
+[battery.motor]
+full = 150
+empty = 130
+
+[battery.logic]
+full = 150
+empty = 130
+
+[ian_nav]
+framerate = 10.0
+process_every = 3
+start_row = 1
+stop_row = 80
+
+[oscar.estop]
+button = 2
+ignore_duration = 0.5
+count_duration = 3.0
+
+[oscar.ranger]
+kp_steering = 4.0
+kp_steering_rev = -2.0
+panic_threshold = -1.75
+escape_speed = -0.4
+smoothing_factor = 0.3
+
+[oscar.vision]
+x_low = 80
+x_high = 0
+kp_steering = -0.03
+
+[oscar.stopsign]
+quantity = 0.09
+quality = 170
+
+[oscar.commander]
+obey_ranger = 0.0
+min_throttle = 0.62
+max_throttle = 0.65
+

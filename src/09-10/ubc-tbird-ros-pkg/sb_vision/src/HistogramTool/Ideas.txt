@@ -1,0 +1,6 @@
+the point: create a 3D histogram for analyzing HSV/RGB colorspace
+
+Code Structure:
+1. main driver
+2. histogram generator: HSV, RGB then more
+3. histogram drawer: 3D then 2D and 1D, maybe use opengl

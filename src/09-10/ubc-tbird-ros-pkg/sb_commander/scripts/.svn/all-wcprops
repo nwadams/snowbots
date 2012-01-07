@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/scripts
+END
+dragrace.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/scripts/dragrace.py
+END
+oscar_commander.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/scripts/oscar_commander.py
+END
+vision_commander.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/scripts/vision_commander.py
+END
+test_commander.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/scripts/test_commander.py
+END
+blizzard_commander.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_commander/scripts/blizzard_commander.py
+END

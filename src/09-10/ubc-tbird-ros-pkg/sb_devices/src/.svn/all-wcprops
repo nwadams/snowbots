@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src
+END
+Odometer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/Odometer.cpp
+END
+servo_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/servo_control.cpp
+END
+speed_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/speed_control.cpp
+END
+ServoController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/ServoController.cpp
+END
+SpeedController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/SpeedController.cpp
+END
+bot_hal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/bot_hal.cpp
+END
+Accelerometer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/Accelerometer.cpp
+END
+oscar_hal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/oscar_hal.cpp
+END
+AccelSpeedController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/AccelSpeedController.cpp
+END
+servo_control
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_devices/src/servo_control
+END
