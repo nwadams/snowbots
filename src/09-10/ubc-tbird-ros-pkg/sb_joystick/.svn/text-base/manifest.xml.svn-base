@@ -1,0 +1,21 @@
+<package>
+  <description brief="sb_joystick">
+
+     sb_joystick
+
+  </description>
+  <author>Ian Phillips</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_joystick</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="joy"/>
+  <depend package="cwiid"/>
+  <depend package="std_msgs"/>
+  <depend package="wiimote"/>
+  <depend package="sb_msgs"/>
+
+</package>
+
+

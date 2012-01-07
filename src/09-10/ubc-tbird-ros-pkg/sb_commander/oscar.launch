@@ -1,0 +1,26 @@
+<launch>
+  <node pkg="sb_furious" 
+    name="furious_driver" 
+    type="driver.py"
+    respawn="true" />
+  <node pkg="wiimote"
+    name="estop"
+    type="wiimote_node.py"
+    respawn="true" />
+  <node pkg="sb_rangefinders"
+    name="ir_extractor"
+    type="ir_extractor"
+    respawn="true" />
+  <node pkg="sb_rangefinders"
+    name="forceNav"
+    type="forceNav.py"
+    respawn="true" />
+  <node pkg="sb_vision"
+    name="ian_nav"
+    type="ian_nav"
+    respawn="true" />
+  <node pkg="sb_commander"
+    name="oscar_commander"
+    type="oscar_commander.py"
+    respawn="true" />
+</launch>

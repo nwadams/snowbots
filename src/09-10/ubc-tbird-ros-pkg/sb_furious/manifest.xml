@@ -1,0 +1,20 @@
+<package>
+  <description brief="sb_furious">
+    Driver and simulator nodes for the Furious robotics microcontroller.
+  </description>
+  <author>Ian Phillips</author>
+  <license>Copyright 2010 UBC Thunderbird Robotics</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_config"/>
+  <depend package="sb_msgs"/>
+  <depend package="sb_util"/>
+
+</package>
+
+

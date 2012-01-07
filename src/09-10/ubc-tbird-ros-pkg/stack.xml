@@ -1,0 +1,13 @@
+<stack name="ubc-tbird-ros-pkg" version="0.1.0">
+  <description brief="ROS Stack for UBC Thunderbird Robotics">
+    ROS Stack for UBC Thunderbird Robotics
+  </description>
+  <author>
+    Created by Ian Phillips; maintained by UBC Thunderbird Robotics
+  </author>
+  <license>Copyright 2009 UBC Thunderbird Robotics</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+  <depend stack="ros"/> <!-- std_msgs, rospy --> 
+
+</stack>

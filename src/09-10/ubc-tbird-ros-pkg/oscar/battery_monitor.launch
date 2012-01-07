@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="furious" 
+    name="furiousDriver" 
+    type="furiousDriver.py" 
+    args="$(find furious)/cfg/oscar.cfg" />
+  <node pkg="furious" name="batteryMonitor" type="batteryMonitor.py" />
+</launch>

@@ -1,0 +1,30 @@
+<package>
+  <description brief="oscar">
+    Software for UBC Snowbots' Oscar Robot.
+  </description>
+  <author>Ian F. Phillips</author>
+  <license>GPL v3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package ="sensor_msgs"/>
+  <depend package = "opencv2"/>
+  <depend package = "cv_bridge"/>
+  <depend package = "image_transport"/>
+
+  <!-- This package depends on the following packages from the
+       ubc-tbird-ros-pkg stack: -->
+  <depend package="furious"/>
+  <depend package="sb_msgs"/>
+  <depend package="std_msgs"/>
+
+  <!-- This package depends on the following Ubuntu packages: -->
+  <rosdep name="libcv-dev"/> 
+
+</package>
+
+

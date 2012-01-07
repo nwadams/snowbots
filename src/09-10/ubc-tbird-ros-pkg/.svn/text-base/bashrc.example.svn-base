@@ -1,0 +1,34 @@
+## Uncomment and edit this next line to point to your ROS install directory.
+#export ROS_ROOT=$HOME/ros/ros
+
+## Uncomment and edit this next line to point to the location of your
+## ubc-tbird-ros-pkg directory (and any other ROS stacks you might have).
+#export ROS_PACKAGE_PATH=$HOME/snowbots/ubc-tbird-ros-pkg
+
+if [ ! -d $ROS_ROOT ]; then
+  echo "Invalid ROS root '$ROS_ROOT' specified."
+  exit 1
+fi
+
+if [[ ! "$PATH" =~ "$ROS_ROOT/bin" ]]; then
+  export PATH=$ROS_ROOT/bin:${PATH}
+fi
+
+if [[ ! "$PYTHONPATH" ]]; then
+  export PYTHONPATH=$ROS_ROOT/core/roslib/src
+elif [[ ! "$PYTHONPATH" =~ "$ROS_ROOT/core/roslib/src" ]]; then
+  export PYTHONPATH=$ROS_ROOT/core/roslib/src:${PYTHONPATH}
+fi
+
+export OCTAVE_PATH=$ROS_ROOT/core/experimental/rosoct/octave:${OCTAVE_PATH}
+
+if [ ! "$ROS_MASTER_URI" ] ; then 
+  export ROS_MASTER_URI=http://localhost:11311
+fi 
+
+export ROS_STACK_PATH=$ROS_ROOT
+
+source $ROS_ROOT/tools/rosbash/rosbash 
+
+# Echo ROS env variables to screen to confirm
+env | grep "ROS"

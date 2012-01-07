@@ -1,0 +1,25 @@
+<package>
+  <description brief="sb_rangefinders">
+    Tools related to rangefinders (IR, sonar, laser).
+  </description>
+  <author>Ian Phillips</author>
+  <license>Copyright 2010 UBC Thunderbird Robotics</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_config"/>
+  <depend package="sb_msgs"/>
+  <depend package="sb_util"/>
+
+  <export>
+    <!-- enable other packages to use our libraries -->
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lsb_rangefinders"/>
+  </export>
+</package>
+

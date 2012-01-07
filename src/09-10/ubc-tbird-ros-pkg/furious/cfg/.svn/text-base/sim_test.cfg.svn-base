@@ -1,0 +1,16 @@
+# This is an example configuration file for pyFurious.loadRobot().
+# See pyFurious.py in this directory.  COPY and customize this file
+# for your robot.
+
+# The serial port to which the Furious board is connected
+port=/dev/pts/3
+
+# Servo format: servo = name,bus_id,min,center,max
+servo=throttle,6,100,200,300
+servo=steering,7,0,100,200
+
+# odometer value is meters traveled per tick
+odometer=0.33
+
+# list of valid sonar ids
+sonar=11,12,13

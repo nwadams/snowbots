@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/scripts
+END
+forceNavCommander.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/scripts/forceNavCommander.py
+END
+teleop_key.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/scripts/teleop_key.sh
+END
+forceNav.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_rangefinders/scripts/forceNav.py
+END

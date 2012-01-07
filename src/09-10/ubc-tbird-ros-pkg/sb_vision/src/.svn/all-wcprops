@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sb/!svn/ver/170/ubc-tbird-ros-pkg/sb_vision/src
+END
+stopSignDetector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/6/ubc-tbird-ros-pkg/sb_vision/src/stopSignDetector.cpp
+END
+stopSignDetector2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/src/stopSignDetector2.cpp
+END
+ian_nav.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/src/ian_nav.cpp
+END
+oscar_stop_sign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/170/ubc-tbird-ros-pkg/sb_vision/src/oscar_stop_sign.cpp
+END
+stopSignCommander.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/src/stopSignCommander.cpp
+END

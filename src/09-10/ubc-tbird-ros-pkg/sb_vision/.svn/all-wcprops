@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sb/!svn/ver/170/ubc-tbird-ros-pkg/sb_vision
+END
+stop.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/stop.jpg
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_vision/Makefile
+END

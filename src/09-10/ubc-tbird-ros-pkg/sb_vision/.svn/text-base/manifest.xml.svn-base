@@ -1,0 +1,28 @@
+<package>
+  <description brief="sb_vision">
+
+     sb_vision
+
+  </description>
+  <author>Ian Phillips</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sb_vision</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package ="sensor_msgs"/>
+  <depend package = "cv_bridge"/>
+  <depend package = "image_transport"/>
+  <!-- <depend package="opencv2"/> -->
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_config"/>
+  <depend package="sb_msgs"/>
+  <!--  <drosdep name="libcv-dev"/> -->
+
+</package>
+
+

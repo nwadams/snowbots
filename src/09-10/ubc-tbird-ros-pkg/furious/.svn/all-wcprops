@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious
+END
+.build_version
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/.build_version
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/manifest.xml
+END
+epydoc.config
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/epydoc.config
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/COPYING
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/mainpage.dox
+END
+rosdoc.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/rosdoc.yaml
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/Makefile
+END

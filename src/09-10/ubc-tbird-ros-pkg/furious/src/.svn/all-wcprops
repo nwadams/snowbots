@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src
+END
+furiousDriver.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furiousDriver.py
+END
+furiousSimulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furiousSimulator.py
+END
+simulatorLite.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/simulatorLite.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/util.py
+END
+irCommander.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/irCommander.py
+END
+pygame_joystick.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/pygame_joystick.py
+END
+batteryMonitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/batteryMonitor.py
+END
+calibrator.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/calibrator.py
+END
+joystickCommander.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/joystickCommander.py
+END
+monitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/monitor.py
+END

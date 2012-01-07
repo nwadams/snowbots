@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sb/!svn/ver/6/ubc-tbird-ros-pkg/sb_gui/scripts
+END
+gui_control_text.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_gui/scripts/gui_control_text.py
+END
+ServoFeedback.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_gui/scripts/ServoFeedback.py
+END
+gui_control_slider.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sb/!svn/ver/6/ubc-tbird-ros-pkg/sb_gui/scripts/gui_control_slider.py
+END

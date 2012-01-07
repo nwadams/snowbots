@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furious
+END
+driver.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furious/driver.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furious/__init__.py
+END
+simulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furious/simulator.py
+END
+devices.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furious/devices.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/furious/src/furious/config.py
+END

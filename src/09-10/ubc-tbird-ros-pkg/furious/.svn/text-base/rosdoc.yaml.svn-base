@@ -1,0 +1,3 @@
+ - builder: epydoc
+   config: epydoc.config
+   output_dir: furious

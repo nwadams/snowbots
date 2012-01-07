@@ -1,0 +1,29 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b sb_config contains ini-style configuration files for robots (in the
+cfg/ directory) and libraries for automatically locating those files
+within the filesystem (in the src/ directory).
+
+Note that this package does NOT provide libraries for parsing 
+configuration files; this is because many suitable libraries already 
+exist.  Some recommended libraries for parsing are boost::program_options 
+(for C++) and ConfigParser (for Python 2.x).
+
+
+\section codeapi Code API
+
+<!--
+Provide links to specific auto-generated API documentation within your
+package that is of particular interest to a reader. Doxygen will
+document pretty much every part of your code, so do your best here to
+point the reader to the actual API.
+
+If your codebase is fairly large or has different sets of APIs, you
+should use the doxygen 'group' tag to keep these APIs together. For
+example, the roscpp documentation has 'libros' group.
+-->
+
+
+*/

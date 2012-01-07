@@ -1,0 +1,15 @@
+# If you look at furious/manifest.xml, you'll see <rosdep/> tags.  These
+# tags specify requirements of the furious package.  This file translates
+# those requirements into operating system-specific package names.
+joystick:
+  ubuntu: joystick
+python-epydoc:
+  ubuntu: python-epydoc
+python-pygame:
+  ubuntu: python-pygame
+python-qt4:
+  ubuntu: python-qt4
+python-serial:
+  ubuntu: python-serial
+libcv-dev:
+  ubuntu: libcv-dev

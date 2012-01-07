@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite
+END
+wmhelper-beta.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite/wmhelper-beta.h
+END
+lookupTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite/lookupTable.h
+END
+eStopLite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite/eStopLite.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite/Makefile
+END
+wmhelper-beta.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/sb_joystick/src/eStopLite/wmhelper-beta.c
+END

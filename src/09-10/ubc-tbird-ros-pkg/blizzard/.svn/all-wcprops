@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/blizzard
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/blizzard/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/blizzard/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/blizzard/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/blizzard/Makefile
+END
+run_blizzard.launch
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sb/!svn/ver/3/ubc-tbird-ros-pkg/blizzard/run_blizzard.launch
+END

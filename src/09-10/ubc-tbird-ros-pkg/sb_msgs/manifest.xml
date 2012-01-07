@@ -1,0 +1,17 @@
+<package>
+  <description brief="sb_msgs">
+    Message type definitions for the UBC Snowbots team. 
+  </description>
+  <author>Ian Phillips</author>
+  <license>Copyright 2010 UBC Thunderbird Robotics</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <export>
+    <!-- enable other packages to use our custom messages -->
+    <cpp cflags="-I${prefix}/msg/cpp"/>
+  </export>
+
+</package>
+
+

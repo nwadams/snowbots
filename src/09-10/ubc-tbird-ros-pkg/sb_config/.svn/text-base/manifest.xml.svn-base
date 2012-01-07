@@ -1,0 +1,28 @@
+<package>
+  <description brief="sb_config">
+    A package for storing robot config files (in the cfg/ directory),
+    plus the calibrator.py tool for calibrating a robot's servos.
+  </description>
+  <author>Ian Phillips</author>
+  <license>Copyright 2010 UBC Thunderbird Robotics</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ubcthunderbird.com</url>
+
+  <!-- This package depends on the following standard ROS packages: -->
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+  <!-- This package depends on the following Snowbots ROS packages: -->
+  <depend package="sb_msgs"/>
+
+  <!-- This package depends on the following operating system packages: -->
+  <rosdep name="python-qt4"/>
+
+  <export>
+    <!-- enable other packages to use our libraries -->
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lsb_config"/>
+  </export>
+
+</package>
+
+
