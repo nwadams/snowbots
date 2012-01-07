@@ -42,7 +42,7 @@ Path::Path()
 	
 	
 	blizzard_steering = 1; 
-	speed = 0.08; //0.12
+	speed = 1; //0.08; //0.12
 	speed_adjust = 0; //0.01
 	stopCount = 0;
 	drag_race = 0; // 1 for drag race, 0 for circuit race

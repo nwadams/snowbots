@@ -84,8 +84,8 @@ int32 g_z
     try:
       _x = self
       buff.write(_struct_9i.pack(_x.c_x, _x.c_y, _x.c_z, _x.a_x, _x.a_y, _x.a_z, _x.g_x, _x.g_y, _x.g_z))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize(self, str):
     """
@@ -100,7 +100,7 @@ int32 g_z
       end += 36
       (_x.c_x, _x.c_y, _x.c_z, _x.a_x, _x.a_y, _x.a_z, _x.g_x, _x.g_y, _x.g_z,) = _struct_9i.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 
@@ -115,8 +115,8 @@ int32 g_z
     try:
       _x = self
       buff.write(_struct_9i.pack(_x.c_x, _x.c_y, _x.c_z, _x.a_x, _x.a_y, _x.a_z, _x.g_x, _x.g_y, _x.g_z))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize_numpy(self, str, numpy):
     """
@@ -133,7 +133,7 @@ int32 g_z
       end += 36
       (_x.c_x, _x.c_y, _x.c_z, _x.a_x, _x.a_y, _x.a_z, _x.g_x, _x.g_y, _x.g_z,) = _struct_9i.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = roslib.message.struct_I

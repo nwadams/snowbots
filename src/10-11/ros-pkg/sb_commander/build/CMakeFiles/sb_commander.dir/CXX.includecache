@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.h
+/home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/ConeLocation.h
 iostream
 -
 string
@@ -14,7 +14,7 @@ string
 vector
 -
 
-/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.cpp
+/home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/Path.cpp
 sstream
 -
 fstream
@@ -32,11 +32,11 @@ string
 iomanip
 -
 Path.h
-/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.h
+/home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/Path.h
 ConeLocation.h
-/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.h
+/home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/ConeLocation.h
 
-/home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.h
+/home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/Path.h
 iostream
 -
 string

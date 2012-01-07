@@ -55,8 +55,8 @@ float64 tilt # between -1.0 and 1.0
     try:
       _x = self
       buff.write(_struct_2d.pack(_x.pan, _x.tilt))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize(self, str):
     """
@@ -71,7 +71,7 @@ float64 tilt # between -1.0 and 1.0
       end += 16
       (_x.pan, _x.tilt,) = _struct_2d.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 
@@ -86,8 +86,8 @@ float64 tilt # between -1.0 and 1.0
     try:
       _x = self
       buff.write(_struct_2d.pack(_x.pan, _x.tilt))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize_numpy(self, str, numpy):
     """
@@ -104,7 +104,7 @@ float64 tilt # between -1.0 and 1.0
       end += 16
       (_x.pan, _x.tilt,) = _struct_2d.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = roslib.message.struct_I

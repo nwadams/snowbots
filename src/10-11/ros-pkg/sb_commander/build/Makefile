@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_commander
+CMAKE_SOURCE_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_commander
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_commander/build
+CMAKE_BINARY_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nwadams/sb/10-11/ros-pkg/sb_commander/build/CMakeFiles /home/nwadams/sb/10-11/ros-pkg/sb_commander/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build/CMakeFiles /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nwadams/sb/10-11/ros-pkg/sb_commander/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,6 +161,19 @@ clean-test-results/fast:
 .PHONY : clean-test-results/fast
 
 #=============================================================================
+# Target rules for targets named forceNav
+
+# Build rule for target.
+forceNav: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 forceNav
+.PHONY : forceNav
+
+# fast build rule for target.
+forceNav/fast:
+	$(MAKE) -f CMakeFiles/forceNav.dir/build.make CMakeFiles/forceNav.dir/build
+.PHONY : forceNav/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -250,19 +263,6 @@ sb_commander: cmake_check_build_system
 sb_commander/fast:
 	$(MAKE) -f CMakeFiles/sb_commander.dir/build.make CMakeFiles/sb_commander.dir/build
 .PHONY : sb_commander/fast
-
-#=============================================================================
-# Target rules for targets named simplistic
-
-# Build rule for target.
-simplistic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 simplistic
-.PHONY : simplistic
-
-# fast build rule for target.
-simplistic/fast:
-	$(MAKE) -f CMakeFiles/simplistic.dir/build.make CMakeFiles/simplistic.dir/build
-.PHONY : simplistic/fast
 
 #=============================================================================
 # Target rules for targets named test
@@ -360,6 +360,21 @@ src/Path.s:
 .PHONY : src/Path.s
 
 # target to build an object file
+src/forceNav.o:
+	$(MAKE) -f CMakeFiles/forceNav.dir/build.make CMakeFiles/forceNav.dir/src/forceNav.o
+.PHONY : src/forceNav.o
+
+# target to preprocess a source file
+src/forceNav.i:
+	$(MAKE) -f CMakeFiles/forceNav.dir/build.make CMakeFiles/forceNav.dir/src/forceNav.i
+.PHONY : src/forceNav.i
+
+# target to generate assembly for a file
+src/forceNav.s:
+	$(MAKE) -f CMakeFiles/forceNav.dir/build.make CMakeFiles/forceNav.dir/src/forceNav.s
+.PHONY : src/forceNav.s
+
+# target to build an object file
 src/main.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.o
 .PHONY : src/main.o
@@ -374,21 +389,6 @@ src/main.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.s
 .PHONY : src/main.s
 
-# target to build an object file
-src/simplistic_commander.o:
-	$(MAKE) -f CMakeFiles/simplistic.dir/build.make CMakeFiles/simplistic.dir/src/simplistic_commander.o
-.PHONY : src/simplistic_commander.o
-
-# target to preprocess a source file
-src/simplistic_commander.i:
-	$(MAKE) -f CMakeFiles/simplistic.dir/build.make CMakeFiles/simplistic.dir/src/simplistic_commander.i
-.PHONY : src/simplistic_commander.i
-
-# target to generate assembly for a file
-src/simplistic_commander.s:
-	$(MAKE) -f CMakeFiles/simplistic.dir/build.make CMakeFiles/simplistic.dir/src/simplistic_commander.s
-.PHONY : src/simplistic_commander.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -401,6 +401,7 @@ help:
 	@echo "... ROSBUILD_gensrv_lisp"
 	@echo "... clean-test-results"
 	@echo "... edit_cache"
+	@echo "... forceNav"
 	@echo "... main"
 	@echo "... rebuild_cache"
 	@echo "... rosbuild_precompile"
@@ -409,7 +410,6 @@ help:
 	@echo "... rospack_genmsg_libexe"
 	@echo "... rospack_gensrv"
 	@echo "... sb_commander"
-	@echo "... simplistic"
 	@echo "... test"
 	@echo "... test-future"
 	@echo "... test-results"
@@ -421,12 +421,12 @@ help:
 	@echo "... src/Path.o"
 	@echo "... src/Path.i"
 	@echo "... src/Path.s"
+	@echo "... src/forceNav.o"
+	@echo "... src/forceNav.i"
+	@echo "... src/forceNav.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/simplistic_commander.o"
-	@echo "... src/simplistic_commander.i"
-	@echo "... src/simplistic_commander.s"
 .PHONY : help
 
 

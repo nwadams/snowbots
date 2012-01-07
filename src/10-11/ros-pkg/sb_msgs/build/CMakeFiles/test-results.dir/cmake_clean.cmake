@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
-  "../src/sb_msgs/msg"
   "../msg_gen"
+  "../src/sb_msgs/msg"
   "../msg_gen"
   "CMakeFiles/test-results"
 )

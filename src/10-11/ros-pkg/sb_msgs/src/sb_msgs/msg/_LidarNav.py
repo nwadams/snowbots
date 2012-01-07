@@ -60,8 +60,8 @@ int32 confidence #a percentage
     try:
       _x = self
       buff.write(_struct_2fi.pack(_x.direction, _x.distance, _x.confidence))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize(self, str):
     """
@@ -76,7 +76,7 @@ int32 confidence #a percentage
       end += 12
       (_x.direction, _x.distance, _x.confidence,) = _struct_2fi.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 
@@ -91,8 +91,8 @@ int32 confidence #a percentage
     try:
       _x = self
       buff.write(_struct_2fi.pack(_x.direction, _x.distance, _x.confidence))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize_numpy(self, str, numpy):
     """
@@ -109,7 +109,7 @@ int32 confidence #a percentage
       end += 12
       (_x.direction, _x.distance, _x.confidence,) = _struct_2fi.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = roslib.message.struct_I

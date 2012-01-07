@@ -32,85 +32,85 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_msgs
+CMAKE_SOURCE_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build
+CMAKE_BINARY_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
-CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/RobotState.h
 CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/VisionNav.h
-CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/IMU.h
 CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/CarCommand.h
+CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/IMU.h
+CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/LidarNav.h
 CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/ServoCommand.h
 CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/TurretCommand.h
-CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/LidarNav.h
-
-../msg_gen/cpp/include/sb_msgs/RobotState.h: ../msg/RobotState.msg
-../msg_gen/cpp/include/sb_msgs/RobotState.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/RobotState.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/sb_msgs/RobotState.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/RobotState.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/RobotState.msg
+CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/RobotState.h
 
 ../msg_gen/cpp/include/sb_msgs/VisionNav.h: ../msg/VisionNav.msg
-../msg_gen/cpp/include/sb_msgs/VisionNav.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/VisionNav.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/VisionNav.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/VisionNav.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../msg_gen/cpp/include/sb_msgs/VisionNav.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/VisionNav.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/VisionNav.msg
-
-../msg_gen/cpp/include/sb_msgs/IMU.h: ../msg/IMU.msg
-../msg_gen/cpp/include/sb_msgs/IMU.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/IMU.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/sb_msgs/IMU.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/IMU.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/IMU.msg
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/VisionNav.msg
 
 ../msg_gen/cpp/include/sb_msgs/CarCommand.h: ../msg/CarCommand.msg
-../msg_gen/cpp/include/sb_msgs/CarCommand.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/CarCommand.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/CarCommand.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/CarCommand.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../msg_gen/cpp/include/sb_msgs/CarCommand.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/CarCommand.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/CarCommand.msg
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/CarCommand.msg
 
-../msg_gen/cpp/include/sb_msgs/ServoCommand.h: ../msg/ServoCommand.msg
-../msg_gen/cpp/include/sb_msgs/ServoCommand.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/ServoCommand.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/sb_msgs/ServoCommand.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/ServoCommand.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/ServoCommand.msg
-
-../msg_gen/cpp/include/sb_msgs/TurretCommand.h: ../msg/TurretCommand.msg
-../msg_gen/cpp/include/sb_msgs/TurretCommand.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/TurretCommand.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/sb_msgs/TurretCommand.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/TurretCommand.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/TurretCommand.msg
+../msg_gen/cpp/include/sb_msgs/IMU.h: ../msg/IMU.msg
+../msg_gen/cpp/include/sb_msgs/IMU.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/IMU.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/IMU.h: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/IMU.h"
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/IMU.msg
 
 ../msg_gen/cpp/include/sb_msgs/LidarNav.h: ../msg/LidarNav.msg
-../msg_gen/cpp/include/sb_msgs/LidarNav.h: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/sb_msgs/LidarNav.h: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/LidarNav.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/LidarNav.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../msg_gen/cpp/include/sb_msgs/LidarNav.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/LidarNav.h"
-	/opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/LidarNav.msg
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/LidarNav.msg
+
+../msg_gen/cpp/include/sb_msgs/ServoCommand.h: ../msg/ServoCommand.msg
+../msg_gen/cpp/include/sb_msgs/ServoCommand.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/ServoCommand.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/ServoCommand.h: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/ServoCommand.h"
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/ServoCommand.msg
+
+../msg_gen/cpp/include/sb_msgs/TurretCommand.h: ../msg/TurretCommand.msg
+../msg_gen/cpp/include/sb_msgs/TurretCommand.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/TurretCommand.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/TurretCommand.h: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/TurretCommand.h"
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/TurretCommand.msg
+
+../msg_gen/cpp/include/sb_msgs/RobotState.h: ../msg/RobotState.msg
+../msg_gen/cpp/include/sb_msgs/RobotState.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/sb_msgs/RobotState.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/sb_msgs/RobotState.h: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/sb_msgs/RobotState.h"
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/RobotState.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
-ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/RobotState.h
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/VisionNav.h
-ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/IMU.h
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/CarCommand.h
+ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/IMU.h
+ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/LidarNav.h
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/ServoCommand.h
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/TurretCommand.h
-ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/LidarNav.h
+ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/sb_msgs/RobotState.h
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp.dir/build.make
 .PHONY : ROSBUILD_genmsg_cpp
 
@@ -123,6 +123,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nwadams/sb/10-11/ros-pkg/sb_msgs /home/nwadams/sb/10-11/ros-pkg/sb_msgs /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 

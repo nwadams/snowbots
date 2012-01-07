@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_commander
+CMAKE_SOURCE_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_commander
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_commander/build
+CMAKE_BINARY_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sb_commander.dir/depend.make
@@ -49,53 +49,54 @@ include CMakeFiles/sb_commander.dir/flags.make
 CMakeFiles/sb_commander.dir/src/ConeLocation.o: CMakeFiles/sb_commander.dir/flags.make
 CMakeFiles/sb_commander.dir/src/ConeLocation.o: ../src/ConeLocation.cpp
 CMakeFiles/sb_commander.dir/src/ConeLocation.o: ../manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/ros/tools/rospack/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/ros/core/roslib/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/messages/std_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/ros/core/rosbuild/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/ros/core/roslang/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/utilities/cpp_common/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/utilities/rostime/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosconsole/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/ros/tools/rosclean/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosgraph/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosmaster/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosout/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/roslaunch/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/ros/tools/rosunit/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rostest/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/topic_tools/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosbag/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosbagmigration/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/common_msgs/geometry_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/common_msgs/sensor_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /home/nwadams/sb/10-11/ros-pkg/sb_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/messages/std_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/ros_comm/tools/topic_tools/srv_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/common_msgs/geometry_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/common_msgs/sensor_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/diamondback/stacks/common_msgs/sensor_msgs/srv_gen/generated
-CMakeFiles/sb_commander.dir/src/ConeLocation.o: /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_commander/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/ros/tools/rospack/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/ros/core/roslib/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/ros/core/rosbuild/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/ros/core/roslang/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/clients/rospy/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/utilities/cpp_common/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/utilities/rostime/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/ros/tools/rosclean/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosgraph/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosparam/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosmaster/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosout/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/roslaunch/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/ros/tools/rosunit/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rostest/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/topic_tools/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosbag/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/rosbagmigration/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/common_msgs/geometry_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/ros_comm/tools/topic_tools/srv_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/common_msgs/geometry_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/srv_gen/generated
+CMakeFiles/sb_commander.dir/src/ConeLocation.o: /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sb_commander.dir/src/ConeLocation.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/sb_commander.dir/src/ConeLocation.o -c /home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/sb_commander.dir/src/ConeLocation.o -c /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/ConeLocation.cpp
 
 CMakeFiles/sb_commander.dir/src/ConeLocation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sb_commander.dir/src/ConeLocation.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.cpp > CMakeFiles/sb_commander.dir/src/ConeLocation.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/ConeLocation.cpp > CMakeFiles/sb_commander.dir/src/ConeLocation.i
 
 CMakeFiles/sb_commander.dir/src/ConeLocation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sb_commander.dir/src/ConeLocation.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/nwadams/sb/10-11/ros-pkg/sb_commander/src/ConeLocation.cpp -o CMakeFiles/sb_commander.dir/src/ConeLocation.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/ConeLocation.cpp -o CMakeFiles/sb_commander.dir/src/ConeLocation.s
 
 CMakeFiles/sb_commander.dir/src/ConeLocation.o.requires:
 .PHONY : CMakeFiles/sb_commander.dir/src/ConeLocation.o.requires
@@ -105,58 +106,58 @@ CMakeFiles/sb_commander.dir/src/ConeLocation.o.provides: CMakeFiles/sb_commander
 .PHONY : CMakeFiles/sb_commander.dir/src/ConeLocation.o.provides
 
 CMakeFiles/sb_commander.dir/src/ConeLocation.o.provides.build: CMakeFiles/sb_commander.dir/src/ConeLocation.o
-.PHONY : CMakeFiles/sb_commander.dir/src/ConeLocation.o.provides.build
 
 CMakeFiles/sb_commander.dir/src/Path.o: CMakeFiles/sb_commander.dir/flags.make
 CMakeFiles/sb_commander.dir/src/Path.o: ../src/Path.cpp
 CMakeFiles/sb_commander.dir/src/Path.o: ../manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/ros/tools/rospack/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/ros/core/roslib/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/messages/std_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/ros/core/rosbuild/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/ros/core/roslang/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/utilities/cpp_common/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/utilities/rostime/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosconsole/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/ros/tools/rosclean/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosgraph/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosmaster/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosout/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/roslaunch/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/ros/tools/rosunit/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rostest/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/topic_tools/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosbag/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/rosbagmigration/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/common_msgs/geometry_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/common_msgs/sensor_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /home/nwadams/sb/10-11/ros-pkg/sb_msgs/manifest.xml
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/messages/std_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/ros_comm/tools/topic_tools/srv_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/common_msgs/geometry_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/common_msgs/sensor_msgs/msg_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/diamondback/stacks/common_msgs/sensor_msgs/srv_gen/generated
-CMakeFiles/sb_commander.dir/src/Path.o: /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_commander/build/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/ros/tools/rospack/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/ros/core/roslib/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/ros/core/rosbuild/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/ros/core/roslang/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/clients/rospy/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/utilities/cpp_common/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/utilities/rostime/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/ros/tools/rosclean/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosgraph/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosparam/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosmaster/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosout/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/roslaunch/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/ros/tools/rosunit/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rostest/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/topic_tools/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosbag/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/rosbagmigration/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/common_msgs/geometry_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/manifest.xml
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/ros_comm/tools/topic_tools/srv_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/common_msgs/geometry_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/msg_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/srv_gen/generated
+CMakeFiles/sb_commander.dir/src/Path.o: /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sb_commander.dir/src/Path.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/sb_commander.dir/src/Path.o -c /home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/sb_commander.dir/src/Path.o -c /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/Path.cpp
 
 CMakeFiles/sb_commander.dir/src/Path.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sb_commander.dir/src/Path.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.cpp > CMakeFiles/sb_commander.dir/src/Path.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/Path.cpp > CMakeFiles/sb_commander.dir/src/Path.i
 
 CMakeFiles/sb_commander.dir/src/Path.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sb_commander.dir/src/Path.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/nwadams/sb/10-11/ros-pkg/sb_commander/src/Path.cpp -o CMakeFiles/sb_commander.dir/src/Path.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/src/Path.cpp -o CMakeFiles/sb_commander.dir/src/Path.s
 
 CMakeFiles/sb_commander.dir/src/Path.o.requires:
 .PHONY : CMakeFiles/sb_commander.dir/src/Path.o.requires
@@ -166,7 +167,6 @@ CMakeFiles/sb_commander.dir/src/Path.o.provides: CMakeFiles/sb_commander.dir/src
 .PHONY : CMakeFiles/sb_commander.dir/src/Path.o.provides
 
 CMakeFiles/sb_commander.dir/src/Path.o.provides.build: CMakeFiles/sb_commander.dir/src/Path.o
-.PHONY : CMakeFiles/sb_commander.dir/src/Path.o.provides.build
 
 # Object files for target sb_commander
 sb_commander_OBJECTS = \
@@ -196,6 +196,6 @@ CMakeFiles/sb_commander.dir/clean:
 .PHONY : CMakeFiles/sb_commander.dir/clean
 
 CMakeFiles/sb_commander.dir/depend:
-	cd /home/nwadams/sb/10-11/ros-pkg/sb_commander/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nwadams/sb/10-11/ros-pkg/sb_commander /home/nwadams/sb/10-11/ros-pkg/sb_commander /home/nwadams/sb/10-11/ros-pkg/sb_commander/build /home/nwadams/sb/10-11/ros-pkg/sb_commander/build /home/nwadams/sb/10-11/ros-pkg/sb_commander/build/CMakeFiles/sb_commander.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/snowbots/src/10-11/ros-pkg/sb_commander /home/mark/snowbots/src/10-11/ros-pkg/sb_commander /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build /home/mark/snowbots/src/10-11/ros-pkg/sb_commander/build/CMakeFiles/sb_commander.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sb_commander.dir/depend
 

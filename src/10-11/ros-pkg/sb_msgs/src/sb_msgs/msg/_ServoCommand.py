@@ -78,8 +78,8 @@ bool usingServo
     try:
       _x = self
       buff.write(_struct_6iB.pack(_x.id, _x.pwm, _x.throttle, _x.steering, _x.pan, _x.tilt, _x.usingServo))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize(self, str):
     """
@@ -95,7 +95,7 @@ bool usingServo
       (_x.id, _x.pwm, _x.throttle, _x.steering, _x.pan, _x.tilt, _x.usingServo,) = _struct_6iB.unpack(str[start:end])
       self.usingServo = bool(self.usingServo)
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 
@@ -110,8 +110,8 @@ bool usingServo
     try:
       _x = self
       buff.write(_struct_6iB.pack(_x.id, _x.pwm, _x.throttle, _x.steering, _x.pan, _x.tilt, _x.usingServo))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize_numpy(self, str, numpy):
     """
@@ -129,7 +129,7 @@ bool usingServo
       (_x.id, _x.pwm, _x.throttle, _x.steering, _x.pan, _x.tilt, _x.usingServo,) = _struct_6iB.unpack(str[start:end])
       self.usingServo = bool(self.usingServo)
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = roslib.message.struct_I

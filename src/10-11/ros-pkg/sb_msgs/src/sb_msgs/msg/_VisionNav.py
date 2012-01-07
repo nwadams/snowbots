@@ -58,8 +58,8 @@ int32 distance
     try:
       _x = self
       buff.write(_struct_3i.pack(_x.confidence, _x.direction, _x.distance))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize(self, str):
     """
@@ -74,7 +74,7 @@ int32 distance
       end += 12
       (_x.confidence, _x.direction, _x.distance,) = _struct_3i.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 
@@ -89,8 +89,8 @@ int32 distance
     try:
       _x = self
       buff.write(_struct_3i.pack(_x.confidence, _x.direction, _x.distance))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize_numpy(self, str, numpy):
     """
@@ -107,7 +107,7 @@ int32 distance
       end += 12
       (_x.confidence, _x.direction, _x.distance,) = _struct_3i.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = roslib.message.struct_I

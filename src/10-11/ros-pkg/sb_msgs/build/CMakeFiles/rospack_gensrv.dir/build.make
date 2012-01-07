@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_msgs
+CMAKE_SOURCE_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build
+CMAKE_BINARY_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build
 
 # Utility rule file for rospack_gensrv.
 
@@ -54,6 +54,6 @@ CMakeFiles/rospack_gensrv.dir/clean:
 .PHONY : CMakeFiles/rospack_gensrv.dir/clean
 
 CMakeFiles/rospack_gensrv.dir/depend:
-	cd /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nwadams/sb/10-11/ros-pkg/sb_msgs /home/nwadams/sb/10-11/ros-pkg/sb_msgs /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rospack_gensrv.dir/depend
 

@@ -120,8 +120,8 @@ uint32 odometer   # integer value of odometer ticks since last poll
       pattern = '<%sI'%length
       buff.write(struct.pack(pattern, *self.batteries))
       buff.write(_struct_I.pack(self.odometer))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize(self, str):
     """
@@ -177,7 +177,7 @@ uint32 odometer   # integer value of odometer ticks since last poll
       end += 4
       (length,) = _struct_I.unpack(str[start:end])
       self.battery_names = []
-      for i in xrange(0, length):
+      for i in range(0, length):
         start = end
         end += 4
         (length,) = _struct_I.unpack(str[start:end])
@@ -196,7 +196,7 @@ uint32 odometer   # integer value of odometer ticks since last poll
       end += 4
       (self.odometer,) = _struct_I.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 
@@ -240,8 +240,8 @@ uint32 odometer   # integer value of odometer ticks since last poll
       pattern = '<%sI'%length
       buff.write(self.batteries.tostring())
       buff.write(_struct_I.pack(self.odometer))
-    except struct.error, se: self._check_types(se)
-    except TypeError, te: self._check_types(te)
+    except struct.error as se: self._check_types(se)
+    except TypeError as te: self._check_types(te)
 
   def deserialize_numpy(self, str, numpy):
     """
@@ -299,7 +299,7 @@ uint32 odometer   # integer value of odometer ticks since last poll
       end += 4
       (length,) = _struct_I.unpack(str[start:end])
       self.battery_names = []
-      for i in xrange(0, length):
+      for i in range(0, length):
         start = end
         end += 4
         (length,) = _struct_I.unpack(str[start:end])
@@ -318,7 +318,7 @@ uint32 odometer   # integer value of odometer ticks since last poll
       end += 4
       (self.odometer,) = _struct_I.unpack(str[start:end])
       return self
-    except struct.error, e:
+    except struct.error as e:
       raise roslib.message.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = roslib.message.struct_I

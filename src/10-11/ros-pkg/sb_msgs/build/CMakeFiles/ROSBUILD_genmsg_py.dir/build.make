@@ -32,91 +32,91 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_msgs
+CMAKE_SOURCE_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build
+CMAKE_BINARY_DIR = /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_py.
 
 CMakeFiles/ROSBUILD_genmsg_py: ../src/sb_msgs/msg/__init__.py
 
-../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_RobotState.py
 ../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_VisionNav.py
-../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_IMU.py
 ../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_CarCommand.py
+../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_IMU.py
+../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_LidarNav.py
 ../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_ServoCommand.py
 ../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_TurretCommand.py
-../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_LidarNav.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
+../src/sb_msgs/msg/__init__.py: ../src/sb_msgs/msg/_RobotState.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/__init__.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --initpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/RobotState.msg /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/VisionNav.msg /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/IMU.msg /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/CarCommand.msg /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/ServoCommand.msg /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/TurretCommand.msg /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/LidarNav.msg
-
-../src/sb_msgs/msg/_RobotState.py: ../msg/RobotState.msg
-../src/sb_msgs/msg/_RobotState.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_RobotState.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../src/sb_msgs/msg/_RobotState.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_RobotState.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/RobotState.msg
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --initpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/VisionNav.msg /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/CarCommand.msg /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/IMU.msg /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/LidarNav.msg /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/ServoCommand.msg /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/TurretCommand.msg /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/RobotState.msg
 
 ../src/sb_msgs/msg/_VisionNav.py: ../msg/VisionNav.msg
-../src/sb_msgs/msg/_VisionNav.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_VisionNav.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_VisionNav.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_VisionNav.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../src/sb_msgs/msg/_VisionNav.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_VisionNav.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/VisionNav.msg
-
-../src/sb_msgs/msg/_IMU.py: ../msg/IMU.msg
-../src/sb_msgs/msg/_IMU.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_IMU.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../src/sb_msgs/msg/_IMU.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_IMU.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/IMU.msg
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/VisionNav.msg
 
 ../src/sb_msgs/msg/_CarCommand.py: ../msg/CarCommand.msg
-../src/sb_msgs/msg/_CarCommand.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_CarCommand.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_CarCommand.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_CarCommand.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../src/sb_msgs/msg/_CarCommand.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_CarCommand.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/CarCommand.msg
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/CarCommand.msg
 
-../src/sb_msgs/msg/_ServoCommand.py: ../msg/ServoCommand.msg
-../src/sb_msgs/msg/_ServoCommand.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_ServoCommand.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../src/sb_msgs/msg/_ServoCommand.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_ServoCommand.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/ServoCommand.msg
-
-../src/sb_msgs/msg/_TurretCommand.py: ../msg/TurretCommand.msg
-../src/sb_msgs/msg/_TurretCommand.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_TurretCommand.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
-../src/sb_msgs/msg/_TurretCommand.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_TurretCommand.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/TurretCommand.msg
+../src/sb_msgs/msg/_IMU.py: ../msg/IMU.msg
+../src/sb_msgs/msg/_IMU.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_IMU.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_IMU.py: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_IMU.py"
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/IMU.msg
 
 ../src/sb_msgs/msg/_LidarNav.py: ../msg/LidarNav.msg
-../src/sb_msgs/msg/_LidarNav.py: /opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
-../src/sb_msgs/msg/_LidarNav.py: /opt/ros/diamondback/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_LidarNav.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_LidarNav.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../src/sb_msgs/msg/_LidarNav.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_LidarNav.py"
-	/opt/ros/diamondback/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/nwadams/sb/10-11/ros-pkg/sb_msgs/msg/LidarNav.msg
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/LidarNav.msg
+
+../src/sb_msgs/msg/_ServoCommand.py: ../msg/ServoCommand.msg
+../src/sb_msgs/msg/_ServoCommand.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_ServoCommand.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_ServoCommand.py: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_ServoCommand.py"
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/ServoCommand.msg
+
+../src/sb_msgs/msg/_TurretCommand.py: ../msg/TurretCommand.msg
+../src/sb_msgs/msg/_TurretCommand.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_TurretCommand.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_TurretCommand.py: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_TurretCommand.py"
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/TurretCommand.msg
+
+../src/sb_msgs/msg/_RobotState.py: ../msg/RobotState.msg
+../src/sb_msgs/msg/_RobotState.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/sb_msgs/msg/_RobotState.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../src/sb_msgs/msg/_RobotState.py: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/sb_msgs/msg/_RobotState.py"
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/msg/RobotState.msg
 
 ROSBUILD_genmsg_py: CMakeFiles/ROSBUILD_genmsg_py
 ROSBUILD_genmsg_py: ../src/sb_msgs/msg/__init__.py
-ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_RobotState.py
 ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_VisionNav.py
-ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_IMU.py
 ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_CarCommand.py
+ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_IMU.py
+ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_LidarNav.py
 ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_ServoCommand.py
 ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_TurretCommand.py
-ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_LidarNav.py
+ROSBUILD_genmsg_py: ../src/sb_msgs/msg/_RobotState.py
 ROSBUILD_genmsg_py: CMakeFiles/ROSBUILD_genmsg_py.dir/build.make
 .PHONY : ROSBUILD_genmsg_py
 
@@ -129,6 +129,6 @@ CMakeFiles/ROSBUILD_genmsg_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_py.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_py.dir/depend:
-	cd /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nwadams/sb/10-11/ros-pkg/sb_msgs /home/nwadams/sb/10-11/ros-pkg/sb_msgs /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build /home/nwadams/sb/10-11/ros-pkg/sb_msgs/build/CMakeFiles/ROSBUILD_genmsg_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build /home/mark/snowbots/src/10-11/ros-pkg/sb_msgs/build/CMakeFiles/ROSBUILD_genmsg_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_py.dir/depend
 
