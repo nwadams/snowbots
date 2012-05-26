@@ -1,0 +1,30 @@
+CXX=g++ -static 
+CXXFLAGS = -I"/cygdrive/c/Progra~1/OpenCV/cxcore/include" -I"/cygdrive/c/Progra~1/OpenCV/cv/include" \
+    -I"/cygdrive/c/Progra~1/OpenCV/cvaux/include" -I"/cygdrive/c/Progra~1/OpenCV/ml/include" -I"/cygdrive/c/Progra~1/OpenCV/otherlibs/highgui"
+
+ifndef DEBUG
+    DEBUG := 0
+endif
+
+ifneq ($(DEBUG),0)
+    DBG := d
+else
+    DBG :=
+endif
+LINKFLAGS = -L"/cygdrive/c/Progra~1/OpenCV/lib" -lhighgui$(DBG) -lml$(DBG) -lcvaux$(DBG) -lcv$(DBG) -lcxcore$(DBG) -lz -lavifil32 -lavicap32 -lvfw32 -lcomctl32 -ladvapi32 -lgdi32 -luser32 -lkernel32
+#LINKFLAGS = -L"../../lib" -lhighgui$(DBG) -lml$(DBG) -lcvaux$(DBG) -lcv$(DBG) -lcxcore$(DBG) -ljpeg -lpng -ltiff -lz -lavifil32 -lavicap32 -lvfw32 -lcomctl32 -ladvapi32 -lgdi32 -luser32 -lkernel32
+
+SAMPLES_C = $(notdir $(patsubst %.c, %$(DBG).exe, $(wildcard *.c)))
+SAMPLES_CPP = $(notdir $(patsubst %.cpp, %$(DBG).exe, $(wildcard *.cpp)))
+
+SAMPLES = $(SAMPLES_C) $(SAMPLES_CPP)
+
+all: $(SAMPLES)
+
+%$(DBG).exe: %.c
+	@echo $@
+	@$(CXX) $(CXXFLAGS) -o $@ $< $(LINKFLAGS)
+
+%$(DBG).exe: %.cpp
+	@echo $@
+	@$(CXX) $(CXXFLAGS) -o $@ $< $(LINKFLAGS)

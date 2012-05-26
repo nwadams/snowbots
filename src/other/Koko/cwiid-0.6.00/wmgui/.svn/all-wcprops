@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui
+END
+wmgui.glade.bak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/wmgui.glade.bak
+END
+wmgui.gladep.bak
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/wmgui.gladep.bak
+END
+callbacks.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/callbacks.c
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/interface.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/Makefile.in
+END
+support.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/support.h
+END
+wmgui.glade
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/wmgui.glade
+END
+wmgui.gladep
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/wmgui.gladep
+END
+callbacks.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/callbacks.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/main.c
+END
+interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/interface.h
+END
+support.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wmgui/support.c
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1633/snowbots/src/tbrclient
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1611/snowbots/src/tbrclient/Doxyfile
+END
+tbrkill.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1611/snowbots/src/tbrclient/tbrkill.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1611/snowbots/src/tbrclient/main.cpp
+END
+drag-race.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1611/snowbots/src/tbrclient/drag-race.cpp
+END
+tbrclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1611/snowbots/src/tbrclient/tbrclient.cpp
+END
+tbrclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1633/snowbots/src/tbrclient/tbrclient.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1630/snowbots/src/tbrclient/Makefile
+END
+tbrdiag.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1611/snowbots/src/tbrclient/tbrdiag.cpp
+END

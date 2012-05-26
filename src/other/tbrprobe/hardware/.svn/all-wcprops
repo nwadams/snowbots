@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1630/snowbots/src/tbrprobe/hardware
+END
+servo_control.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/servo_control.c
+END
+motor_control.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/motor_control.c
+END
+furious_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/furious_control.h
+END
+servo_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/servo_control.h
+END
+motor_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/motor_control.h
+END
+serial232.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1630/snowbots/src/tbrprobe/hardware/serial232.c
+END
+nimu_control.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/nimu_control.c
+END
+serial232.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1630/snowbots/src/tbrprobe/hardware/serial232.h
+END
+furious_control.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/furious_control.c
+END
+nimu_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1611/snowbots/src/tbrprobe/hardware/nimu_control.h
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/common/include
+END
+dep.mak
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/common/include/dep.mak
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/common/include/config.h.in
+END
+lib.mak.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/common/include/lib.mak.in
+END
+plugin.mak
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/common/include/plugin.mak
+END
+app.mak
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/common/include/app.mak
+END

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<!-- birds eye example -->
+<H type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    46.10264206 8.03889275 53.66810608 1.12058544 27.27142143
+    74.91093445 0.03857294 0.08470365 15.</data></H>
+</opencv_storage>

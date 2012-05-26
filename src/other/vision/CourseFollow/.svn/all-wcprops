@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow
+END
+serialBridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/serialBridge.h
+END
+config.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/config.cfg
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/util.h
+END
+imageOps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/imageOps.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/main.cpp
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/defs.h
+END
+configReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/configReader.cpp
+END
+imageOps.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/imageOps.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/Makefile
+END
+serialBridge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/serialBridge.cpp
+END
+configReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/configReader.h
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1611/snowbots/src/vision/CourseFollow/util.cpp
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid
+END
+command.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/command.c
+END
+process.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/process.c
+END
+cwiid_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/cwiid_internal.h
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/interface.c
+END
+state.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/state.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/Makefile.in
+END
+cwiid.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/cwiid.h
+END
+bluetooth.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/bluetooth.c
+END
+thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/thread.c
+END
+connect.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/connect.c
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/libcwiid/util.c
+END

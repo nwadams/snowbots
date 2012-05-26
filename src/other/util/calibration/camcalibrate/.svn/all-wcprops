@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1611/snowbots/src/util/calibration/camcalibrate
+END
+capture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1611/snowbots/src/util/calibration/camcalibrate/capture.cpp
+END
+birdseye.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1611/snowbots/src/util/calibration/camcalibrate/birdseye.cpp
+END
+calib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1611/snowbots/src/util/calibration/camcalibrate/calib.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1611/snowbots/src/util/calibration/camcalibrate/Makefile
+END

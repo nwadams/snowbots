@@ -1,0 +1,5 @@
+#configuration file for the Cone Following program
+
+#HoughParams rho_resolution theta_resolution threshold
+HoughParams 4 0.0174532925194 100
+Resolution 320 240

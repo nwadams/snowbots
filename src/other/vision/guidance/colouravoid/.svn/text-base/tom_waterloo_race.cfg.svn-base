@@ -1,0 +1,78 @@
+#waterloo_race.cfg
+#configuration file for the colouravoid vision system for the Waterloo Robot Race 
+#UBC team Thunderbird entry
+
+#camera index to use
+cam_index = 0
+
+#size of analysed image, smaller is faster
+img_width = 80
+img_height = 60
+
+#position of the horizon line in the image in pixels from the TOP of the image
+horizon = 25
+
+#size of local map image.  smaller is faster
+map_width = 100
+map_height = 100
+
+#position of bottom of transformed image in map
+foot = 10
+
+#width of top of trapezoid
+trap_top_width = 120
+
+#width of bottom of trapezoid
+trap_width = 20
+
+#position of curve source point in map (suggest map_width/2, map_height)
+anchorx = 50
+anchory = 85
+
+#width of the curve sampling
+radius = 5
+
+#colour filter in HSV colour
+hue = 0
+hue_tolerance = 40
+min_saturation = 140
+min_lightness = 100
+
+max_val = 100
+
+#steering smoothing value. [0 1.0]  Higher values equal faster response, 
+#twitchier steering
+steering_mix = 0.8
+
+#steering sensitivity (make negative to reverse steering)
+steering_gain = -1.0
+turret_gain = 0.15
+turrettilt = 0
+image_rotation_gain = 0
+
+#what image to disply at program start.  0 is colour, 1 is binary post-filter image
+default_displaymode = 0
+
+#throttle pid settings
+kp = 0.1
+ki = 0.01
+kd = 0.01
+
+#throttle limit settings
+maxreverse = -50
+maxforward = 50
+
+#throttle mode 0 = manual, 1 = pid
+throttleMode = 0
+
+#value for constant throttle
+throttleSteady = 28
+
+#throttle delay when kill switch is pressed forward (seconds)
+startDelay = 3
+
+#poll sensors (used for kill switch) 0 = no, 1 = true
+pollSensors = 1
+
+
+

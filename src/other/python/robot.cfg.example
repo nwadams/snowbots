@@ -1,0 +1,13 @@
+# This is an example configuration file for pyFurious.loadRobot().
+# See pyFurious.py in this directory.  COPY and customize this file
+# for your robot.
+
+# servo format: servo=name,bus_id,min,center,max
+servo=throttle,6,191,260,353
+servo=steering,7,370,249,165
+
+# odometer value is meters traveled per tick
+odometer=0.33
+
+# list of valid sonar ids
+sonar=11,12,13

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance
+END
+ranger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/ranger.cpp
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/util.h
+END
+ranger.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/ranger.h
+END
+waterloo_race.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/waterloo_race.cfg
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/main.cpp
+END
+matt_lin.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/matt_lin.cfg
+END
+pathfinder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/pathfinder.cpp
+END
+pathfinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/pathfinder.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/Makefile
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/raceguidance/util.cpp
+END

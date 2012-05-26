@@ -1,0 +1,6 @@
+100 - ((currenthue - seedhue) / seedhue * 100)
+will give percentage
+can use as confidence 
+
+store in array.
+next value <= prevoius value

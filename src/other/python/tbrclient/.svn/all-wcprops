@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1619/snowbots/src/python/tbrclient
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1619/snowbots/src/python/tbrclient/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1619/snowbots/src/python/tbrclient/README
+END
+tbrclient.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1619/snowbots/src/python/tbrclient/tbrclient.i
+END

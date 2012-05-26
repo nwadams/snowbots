@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap
+END
+matt_mac.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/matt_mac.cfg
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/main.cpp
+END
+camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/camera.cpp
+END
+cameratest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/cameratest.cpp
+END
+localmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/localmap.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/Makefile
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/camera.h
+END
+localmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/localmap.h
+END
+maptest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1611/snowbots/src/vision/guidance/localmap/maptest.cpp
+END

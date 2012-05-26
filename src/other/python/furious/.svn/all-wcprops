@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1638/snowbots/src/python/furious
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1638/snowbots/src/python/furious/__init__.py
+END
+simulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1638/snowbots/src/python/furious/simulator.py
+END
+devices.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1638/snowbots/src/python/furious/devices.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1638/snowbots/src/python/furious/config.py
+END

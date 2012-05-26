@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1611/snowbots/src/vision/imageops
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1611/snowbots/src/vision/imageops/util.h
+END
+imageops.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1611/snowbots/src/vision/imageops/imageops.cpp
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1611/snowbots/src/vision/imageops/defs.h
+END
+imageops.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1611/snowbots/src/vision/imageops/imageops.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/imageops/Makefile
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/imageops/util.cpp
+END

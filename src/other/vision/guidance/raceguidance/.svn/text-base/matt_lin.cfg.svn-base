@@ -1,0 +1,103 @@
+#waterloo_race.cfg
+#configuration file for the colouravoid vision system for the Waterloo Robot Race 
+#UBC team Thunderbird entry
+
+#camera index to use
+cam_index = 1
+
+#size of analysed image, smaller is faster
+img_width = 240
+img_height = 180
+
+#position of the horizon line in the image in pixels from the TOP of the image
+horizon = 60
+
+#size of local map image.  smaller is faster
+map_width = 240
+map_height = 200
+
+#position of bottom of transformed image in map
+foot = 30
+
+#width of bottom of trapezoid
+trap_top_width = 400
+trap_width = 60
+
+#position of curve source point in map (suggest map_width/2, map_height)
+anchorx = 120
+anchory = 210
+
+#what percentage of road area must be coloured to invoke colouravoid
+colourAhead_thresh = 0.02
+
+#width of the curve sampling
+radius = 5
+
+#colour filter in HSV colour
+hue = 0
+hue_tolerance = 20
+min_saturation = 118
+min_lightness = 50
+
+hue2 = 54
+hue_tolerance2 = 54
+min_saturation2 = 200
+min_lightness2 = 50
+
+max_val = 100
+
+#steering smoothing value. [0 1.0]  Higher values equal faster response, 
+#twitchier steering
+steering_mix = 0.2
+
+#steering sensitivity (make negative to reverse steering)
+steering_gain = 1.0
+turret_gain = -0.2
+turrettilt = 0
+image_rotation_gain = -0.2
+
+#what image to disply at program start.  0 is colour, 1 is binary post-filter image
+default_displaymode = 0
+
+#throttle pid settings
+kp = 10.0
+ki = 0.1
+kd = 0.1
+
+#throttle limit settings
+maxreverse = -50
+maxforward = 50
+
+#throttle mode 0 = manual, 1 = pid
+throttleMode = 0
+
+throttle_slow = 0.0
+throttle_fast = 1.0
+throttle_slow = 0.3
+throttle_rev = -0.3
+
+#poll sensors (IR and killswitch)
+pollSensors = 1
+
+ir_minrange = 0.0
+ir_maxrange = 1.5
+
+ir_mix = 0.5
+ir_scale = 100
+
+#IR sensor positions RELATIVE TO ANCHOR
+irnw_x = -10
+irnw_y = -50
+irnw_angle = -0.785
+irnw_radius = 30
+
+irn_x = 0
+irn_y = -50
+irn_angle = 0.0
+irn_radius = 20
+
+irne_x = 10
+irne_y = -50
+irne_angle = 0.785
+irne_radius = 30
+

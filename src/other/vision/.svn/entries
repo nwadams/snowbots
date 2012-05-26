@@ -1,0 +1,126 @@
+10
+
+dir
+1698
+https://ubcthunderbird.com/svn/snowbots/src/vision
+https://ubcthunderbird.com/svn
+
+
+
+2009-09-29T17:13:53.000139Z
+1612
+IanPhillips
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+873437f3-1fba-4325-9991-c9331b882235
+
+guidance
+dir
+
+mscr_1.00_mod
+dir
+
+sonar
+dir
+
+CourseFollow
+dir
+
+imageops
+dir
+
+stopsign
+dir
+
+ConeFollow
+dir
+
+blobdetect
+dir
+
+template
+dir
+
+course_map
+dir
+
+Makefile
+file
+
+
+
+
+2009-11-15T12:52:50.946926Z
+454cc606c7dee6966562586ac250d02e
+2009-09-29T17:13:53.000139Z
+1612
+IanPhillips
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1586
+
+README
+file
+
+
+
+
+2009-11-15T12:52:50.950923Z
+ea5718d5b2fae92cef2652adf551f937
+2009-09-29T16:50:44.296787Z
+1611
+IanPhillips
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+236
+

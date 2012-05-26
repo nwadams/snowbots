@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod
+END
+msr_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/msr_util.c
+END
+R.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/R.cpp
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/Doxyfile
+END
+msr_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/msr_util.h
+END
+visualise.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/visualise.c
+END
+R.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/R.h
+END
+blobdetector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/blobdetector.cpp
+END
+visualise.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/visualise.h
+END
+image_buffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/image_buffer.c
+END
+pid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/pid.cpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/README
+END
+blobdetector.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/blobdetector.h
+END
+mscr_opencv.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/mscr_opencv.c
+END
+blobtest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/blobtest.cpp
+END
+draw_blobs.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/draw_blobs.c
+END
+measure_time.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/measure_time.c
+END
+chi_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/chi_table.h
+END
+image_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/image_buffer.h
+END
+pid.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/pid.h
+END
+measure_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/measure_time.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/COPYING
+END
+mexutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/mexutil.c
+END
+detect_mscr.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/detect_mscr.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/Makefile
+END
+mexutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1611/snowbots/src/vision/blobdetect/mscr_1.00_mod/mexutil.h
+END

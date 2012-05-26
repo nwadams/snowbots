@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1611/snowbots/src/vision/template
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/template/test.cpp
+END
+triangle1.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1611/snowbots/src/vision/template/triangle1.ppm
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/template/main.cpp
+END
+example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1611/snowbots/src/vision/template/example.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/template/Makefile
+END

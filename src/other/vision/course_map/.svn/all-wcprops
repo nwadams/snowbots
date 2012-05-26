@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1611/snowbots/src/vision/course_map
+END
+course_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1611/snowbots/src/vision/course_map/course_map.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1611/snowbots/src/vision/course_map/main.cpp
+END
+segmap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1611/snowbots/src/vision/course_map/segmap.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1611/snowbots/src/vision/course_map/Makefile
+END
+course_map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1611/snowbots/src/vision/course_map/course_map.cpp
+END

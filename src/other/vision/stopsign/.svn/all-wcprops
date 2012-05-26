@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign
+END
+search_icons.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/search_icons.cpp
+END
+stop2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop2.jpg
+END
+stop3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop3.jpg
+END
+TO_bw.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/TO_bw.jpg
+END
+stop_scene1_bw.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene1_bw.jpg
+END
+stop_scene2_bw.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene2_bw.jpg
+END
+stop_scene3_bw.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene3_bw.jpg
+END
+TO.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/TO.jpg
+END
+stop_scene1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene1.jpg
+END
+stop_scene2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene2.jpg
+END
+stop.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop.jpg
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/main.cpp
+END
+stop_scene4.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene4.jpg
+END
+stop_scene5.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/stop_scene5.jpg
+END
+templateMatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/templateMatch.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/Makefile
+END
+templateMatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/vision/stopsign/templateMatch.h
+END

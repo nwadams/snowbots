@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1638/snowbots/src/python
+END
+robolib.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1602/snowbots/src/python/robolib.py
+END
+simple_control.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1586/snowbots/src/python/simple_control.py
+END
+furious_simulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1638/snowbots/src/python/furious_simulator.py
+END
+ir_avoid.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1638/snowbots/src/python/ir_avoid.py
+END
+furious_calibrator.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1638/snowbots/src/python/furious_calibrator.py
+END
+joystick.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1586/snowbots/src/python/joystick.py
+END
+profile.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1628/snowbots/src/python/profile.py
+END
+maps.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1586/snowbots/src/python/maps.py
+END
+speed_control.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1586/snowbots/src/python/speed_control.py
+END
+furious_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1638/snowbots/src/python/furious_example.py
+END
+seg_map.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1586/snowbots/src/python/seg_map.py
+END
+kalman_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1586/snowbots/src/python/kalman_example.py
+END
+profile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1628/snowbots/src/python/profile.sh
+END
+diagnostic.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1602/snowbots/src/python/diagnostic.py
+END
+sensor_readings.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1638/snowbots/src/python/sensor_readings.py
+END
+robot.cfg.example
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1638/snowbots/src/python/robot.cfg.example
+END
+nicolas_test_control.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1586/snowbots/src/python/nicolas_test_control.py
+END

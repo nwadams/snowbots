@@ -1,0 +1,19 @@
+# Makefile - to compile  
+
+CC=g++
+SNOWBOTS_ROOT=$(HOME)/snowbots
+CFLAGS= -Wall -Werror -g
+EXE=helloWorld
+
+default: all
+
+all: $(EXE)
+
+%.o : %.cpp
+	$(CC) $(CFLAGS) -I$(SNOWBOTS_ROOT)/include -c $<
+
+$(EXE): $(EXE).o tbrclient.a
+	$(CC) $(CFLAGS) -L$(SNOWBOTS_ROOT)/lib $^ -o $@
+
+clean:
+	rm -f *.o $(EXE)

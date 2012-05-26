@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/configure.ac
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/AUTHORS
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/ChangeLog
+END
+Wiimote_Linux_integration.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/Wiimote_Linux_integration.pdf
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/COPYING
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/NEWS
+END
+defs.mak.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/defs.mak.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/aclocal.m4
+END

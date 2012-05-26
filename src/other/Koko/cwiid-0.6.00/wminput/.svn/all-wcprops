@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput
+END
+action_enum.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/action_enum.txt
+END
+c_plugin.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/c_plugin.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/Makefile.in
+END
+action_enum.awk
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/action_enum.awk
+END
+c_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/c_plugin.h
+END
+py_plugin.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/py_plugin.c
+END
+wmplugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/wmplugin.h
+END
+py_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/py_plugin.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/README
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/util.c
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/util.h
+END
+parser.y
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/parser.y
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/main.c
+END
+uinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/uinput.c
+END
+conf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/conf.c
+END
+lexer.l
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/lexer.l
+END
+conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/wminput/conf.h
+END

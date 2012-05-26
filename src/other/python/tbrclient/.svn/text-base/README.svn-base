@@ -1,0 +1,28 @@
+===  SUMMARY  ===
+This directory contains the files needed to generate a Python wrapper of 
+the tbrclient library.
+
+===  ABOUT TBRCLIENT  ===
+The tbrclient library is a C++ library for communicating with tbrprobe.  
+For more information about tbrclient, look in snowbots/src/tbrclient/.
+
+===  USING TBRCLIENT IN PYTHON  ===
+In order to use tbrclient in a Python program, you have to generate a 
+"wrapper" module around the C++ library.  The files in this directory will
+do that for you automatically using SWIG, so you must have SWIG installed on 
+your computer first.  To install SWIG, use your package manager to install 
+"swig".  Then just type "make" in this directory.  This will create the Python 
+module and supporting shared object (.so file) and move them up one directory 
+(into snowbots/src/python/).  From there you can just "import tbrclient" into 
+your Python program and away you go.
+
+===  REQUIRED PACKAGES  ===
+swig
+python-dev
+build-essential
+
+===  EXAMPLES  ===
+See python/sonar_avoid.py for an example robot AI that uses tbrclient.
+
+===  AUTHOR  ===
+Ian Phillips <ianfp@freeshell.org>

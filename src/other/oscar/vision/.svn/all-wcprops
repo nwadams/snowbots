@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1634/snowbots/src/oscar/vision
+END
+capture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1633/snowbots/src/oscar/vision/capture.cpp
+END
+Makefile.ash
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1611/snowbots/src/oscar/vision/Makefile.ash
+END
+ZilkerParkPath.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1611/snowbots/src/oscar/vision/ZilkerParkPath.jpg
+END
+path-to-the-spa.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1611/snowbots/src/oscar/vision/path-to-the-spa.jpg
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1621/snowbots/src/oscar/vision/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1634/snowbots/src/oscar/vision/Makefile
+END
+path.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1611/snowbots/src/oscar/vision/path.c
+END
+path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1633/snowbots/src/oscar/vision/path.cpp
+END
+Makefile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1621/snowbots/src/oscar/vision/Makefile.cpp
+END

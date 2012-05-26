@@ -1,0 +1,13 @@
+#configuration file for the Cone Following program
+
+width 320
+height 240
+
+hue 170
+hue_tolerance 20
+min_saturation 110
+max_val 100
+
+rho_res 4
+theta_res 0.01745329;
+threshold 150

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/python
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/python/Makefile.in
+END
+cwiidmodule.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/python/cwiidmodule.c
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/python/setup.py
+END
+Wiimote.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1684/snowbots/src/Koko/cwiid-0.6.00/python/Wiimote.c
+END

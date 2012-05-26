@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(PATH)
+link_directories(/usr/local/lib)
+add_executable(path path.cpp)
+TARGET_LINK_LIBRARIES( path cv cxcore highgui m )

@@ -1,0 +1,12 @@
+1.
+Detail the UDP enumerated message formats in an HTML4 document.
+
+Function, interface, notes, and command examples.
+
+2.
+Write C, C++, Python, Java, and .NET client communucation includes.h
+and place a working copy in:
+/examples/c/
+/examples/cpp/  
+/examples/python/ 
+/examples/NET/

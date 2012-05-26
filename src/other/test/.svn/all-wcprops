@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1698/snowbots/src/test
+END
+coneHugger
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1694/snowbots/src/test/coneHugger
+END
+coneHugger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1697/snowbots/src/test/coneHugger.cpp
+END
+sensorTest
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1694/snowbots/src/test/sensorTest
+END
+coneHugger2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1698/snowbots/src/test/coneHugger2.cpp
+END
+sensorTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1694/snowbots/src/test/sensorTest.cpp
+END
+helloWorld
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1694/snowbots/src/test/helloWorld
+END
+helloWorld.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1694/snowbots/src/test/helloWorld.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1697/snowbots/src/test/Makefile
+END
